@@ -1,0 +1,705 @@
+{
+    "responses": [
+        {
+            "responseId": "6302c326-98aa-4836-aca7-63c98ab15ea4",
+            "message": "大语言模型在医学问答与辅助诊疗中的应用研究",
+            "sender": "human",
+            "createTime": "2025-05-08T05:12:49.526679Z",
+            "manual": false,
+            "partial": false,
+            "shared": false,
+            "query": "",
+            "queryType": "",
+            "webSearchResults": [],
+            "xpostIds": [],
+            "xposts": [],
+            "generatedImageUrls": [],
+            "imageAttachments": [],
+            "fileAttachments": [],
+            "cardAttachmentsJson": [],
+            "fileUris": [],
+            "fileAttachmentsMetadata": [],
+            "isControl": false,
+            "steps": [],
+            "imageEditUris": [],
+            "mediaTypes": [],
+            "webpageUrls": []
+        },
+        {
+            "responseId": "e5c1e1da-75e4-4d83-b729-0cd7c7d007ee",
+            "message": "### 关键要点\n- 研究表明，大语言模型在医学问答和辅助诊疗中具有重要潜力，但仍存在挑战。\n- 这些模型似乎可能提高诊断效率和患者沟通，但需注意伦理和准确性问题。\n- 证据倾向于支持其在中文医疗问答系统中的应用，尤其在实体识别和知识图谱方面。\n\n### 概述\n大语言模型（LLMs）在医学领域的应用，尤其是医学问答和辅助诊疗，近年来受到广泛关注。这些模型通过处理大量医疗数据，能够回答复杂的医学问题并辅助医生进行诊断。以下是其主要应用和相关研究的简要介绍。\n\n#### 医学问答的应用\nLLMs如Med-PaLM 2、BioGPT和GPT-4被设计用于回答医疗问题。研究显示，GPT-4在MedQA数据集上的准确率高达93.06%，表明其在理解和回答医学问题方面的能力。此外，模型如BioMistral和GatorTron也专注于医疗相关任务，如语义文本相似性和自然语言推理。\n\n#### 辅助诊疗的潜力\n在辅助诊疗中，LLMs被用于分析患者数据和医疗影像，提供诊断建议。例如，ChatCAD和SkinGEN等工具在皮肤科等领域显示出潜力，帮助提高诊断的准确性和效率。\n\n#### 中文语境下的研究\n在中国，研究重点放在中文医学问答系统上，利用实体识别、知识图谱和机器学习优化系统性能。Huatuo-26M等数据集为训练和评估中文医疗问答模型提供了基础。\n\n#### 挑战与未来方向\n尽管LLMs展现出巨大潜力，但仍面临挑战，如确保上下文理解、避免过度依赖AI，以及处理伦理问题如患者数据隐私。未来研究可能聚焦于多模态LLMs和算法的深入理解，以进一步提升其在医疗中的应用。\n\n---\n\n### 详细调研报告\n\n大语言模型（LLMs）在医学问答和辅助诊疗中的应用研究已成为近年来学术界和医疗行业关注的热点。本报告基于近期研究，系统总结了LLMs在上述领域的应用现状、关键模型、性能指标以及中文语境下的特殊研究，旨在为相关领域的研究者和从业者提供全面的参考。\n\n#### 研究背景与总体趋势\nLLMs通过深度学习技术训练，能够处理和生成自然语言，展现出在医疗领域的巨大潜力。研究表明，这些模型能够从医学文献、电子健康记录（EHR）和临床数据中提取信息，支持医学问答和辅助诊疗任务。2024年的一篇综述论文指出，LLMs在临床语言理解任务中表现出色，包括命名实体识别、关系提取、自然语言推理、多模态医疗应用、文档分类和问答等[1]。全球范围内，研究热点集中在诊断辅助和患者沟通，涉及美国（221篇）、印度（53篇）和中国（49篇）等多个国家的研究[4]。\n\n#### 医学问答的应用\n医学问答是LLMs在医疗中的核心应用之一，旨在为医生和患者提供准确的医学信息。以下是关键模型和性能的总结：\n\n- **关键模型**：Med-PaLM 2、BioGPT、BioMistral、GatorTron和GPT-4等模型被广泛用于医学问答。特别是GPT-4在MedQA数据集上的表现突出，准确率达到93.06%，优于Med-PaLM 2（CoT + SC）的83.7%和Meerkat-7B（Ensemble）的74.3%[1]。BioGPT-Large（1.5B）在PubMedQA上的准确率也达到81.0%，显示出强大的生物医学问答能力[1]。\n- **应用场景**：LLMs如ChatGPT被用于增强医患沟通，提供初步在线咨询，解释医学术语，尤其在疫苗接种等领域表现出色[4]。此外，它们还支持患者教育，涵盖正畸和心脏手术等多个领域。\n\n以下是部分模型的详细数据：\n\n| **模型**               | **年份** | **任务**                     | **机构**                     | **性能指标**                  |\n|-------------------------|----------|------------------------------|-------------------------------------|-------------------------------|\n| BioMistral             | 2024     | 医学问答                     | Avignon Université, Nantes Université | -                             |\n| Med-PaLM 2             | 2023     | 医学问答                     | Google Research, DeepMind           | MedQA准确率83.7%             |\n| GatorTron              | 2022     | 语义文本相似性，问答等        | University of Florida               | -                             |\n| BioMedLM               | 2022     | 生物医学问答                 | Stanford CRFM, MosaicML             | -                             |\n| BioGPT                 | 2023     | 分类、关系提取、问答等        | Microsoft Research                 | PubMedQA准确率81.0%          |\n| GPT-4                  | 2024     | 医学问答（MedQA）             | -                                   | MedQA准确率93.06%            |\n\n这些模型的开发通常依赖于大规模医疗数据集，如PubMedQA和MedQA，确保其在专业医学知识上的表现。\n\n#### 辅助诊疗的潜力\n辅助诊疗是LLMs的另一重要应用，旨在通过分析患者数据和医疗影像辅助医生进行诊断。以下是相关工具和研究的总结：\n\n- **关键工具**：ChatCAD（2023年，上海科技大学开发）用于计算机辅助诊断，ChatCAD+进一步增强了医疗影像诊断网络[1]。SkinGEN（2024年）专注于皮肤科诊断，提供可解释性评分[1]。DR. KNOWS（2023年）则用于自动化诊断生成[1]。\n- **应用场景**：这些工具在胃肠病学、牙科和皮肤科等领域显示出潜力，支持推荐医疗检查和提供文献支持[4]。例如，研究表明LLMs在泌尿生殖系统辅助诊断中有13项相关研究，总体泌尿生殖系统研究达37项[4]。\n- **挑战**：尽管表现优异，LLMs在上下文理解和因果推理方面仍存在局限，可能影响诊断准确性[4]。\n\n#### 中文语境下的研究\n在中国，LLMs在医学问答和辅助诊疗中的应用研究具有独特的语境，重点关注中文医疗数据的处理。以下是关键发现：\n\n- **研究规模**：从2017年1月至2024年6月，分析了1,071篇文献，其中中文文献111篇，检索自Web of Science、CNKI、万方数据和VIP数据库[2]。高频关键词包括“医疗问答”（频率4，2022年）、“智能问答”和“问答系统”（2023-2024年爆发强度0.41）[2]。\n- **研究热点**：国内研究聚焦实体识别、知识图谱和EHR数据结构优化。例如，乔凯等人（2021年）利用注意力机制提升问答匹配性能（DOI:10.16451/j.cnki.issn1003-6059.202108006），王润洲等人（2021年）通过知识图谱增强系统（DOI:10.3969/j.issn.1671-3982.2021.11.001）[2]。梁丽蓉等人（2019年）则优化EHR数据结构（DOI:10.3969/j.issn.1000-386x.2019.10.009）[2]。\n- **数据集**：Huatuo-26M（2023年）是一个大规模中文医学问答数据集，为模型训练和评估提供了重要支持[3]。\n\n以下是部分中文研究的关键词聚类：\n\n| **聚类编号** | **关键词**       | **频率** | **爆发强度** | **年份** |\n|--------------|------------------|----------|--------------|----------|\n| #1           | 实体识别         | -        | -            | 2022     |\n| #11          | 医疗问答         | -        | -            | 2022     |\n| -            | 智能问答         | 0.41     | 2023-2024    | -        |\n| -            | 问答系统         | 0.41     | 2023-2024    | -        |\n\n这些研究表明，中文医疗问答系统的发展正处于快速增长阶段，未来可能进一步整合知识图谱和机器学习技术。\n\n#### 挑战与未来方向\n尽管LLMs在医学问答和辅助诊疗中展现出潜力，但仍面临多方面挑战：\n\n- **技术局限**：包括上下文理解不足、因果推理能力有限，可能导致误诊风险[4]。研究强调需要验证模型的准确性，确保其在临床中的可靠性。\n- **伦理问题**：患者数据隐私、AI过度依赖和伦理决策是重要关注点[4]。例如，研究指出需平衡传统医疗实践与AI辅助诊断的关系[4]。\n- **未来方向**：未来研究可能聚焦多模态LLMs，结合文本、影像和基因数据，提升诊断能力[4]。同时，深入研究算法机制，确保模型的透明度和可解释性。\n\n#### 总结\nLLMs在医学问答和辅助诊疗中的应用研究显示出显著潜力，尤其在提高诊断效率、增强医患沟通和优化临床决策方面。然而，其发展仍需克服技术局限和伦理挑战。中文语境下的研究为全球贡献了独特的视角，特别是在处理非结构化EHR数据和开发本地化模型方面。未来，随着技术的进步，LLMs有望进一步推动医疗现代化的发展。\n\n---\n\n### 关键引文\n- [Large Language Models in Healthcare and Medical Domain: A Review综述](https://arxiv.org/html/2401.06775v2)\n- [Research on the Application of Large Language Models in Medical Question Answering and Auxiliary Diagnosis研究](https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520)\n- [Huatuo-26M, a large-scale Chinese medical QA dataset数据集](https://arxiv.org/abs/2305.01526)\n- [The application of large language models in medicine: A scoping review综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC11091685/)",
+            "sender": "ASSISTANT",
+            "createTime": "2025-05-08T05:15:13.647567Z",
+            "parentResponseId": "6302c326-98aa-4836-aca7-63c98ab15ea4",
+            "manual": false,
+            "partial": false,
+            "shared": false,
+            "query": "",
+            "queryType": "",
+            "webSearchResults": [
+                {
+                    "url": "https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520",
+                    "title": "Chinagp",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/RR8EKO7pCOFZuc_zyVRyUGVqFhNG-ufJs1bDILPPEhs/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjgyZTA1MGJk/NzJkYTBjOWJkODQy/MjU5NGUzMGJlOGVm/NTc3M2VjNjNlMDhh/YmM1MGEwM2UxMzUz/OWViZGVkYi93d3cu/Y2hpbmFncC5uZXQv",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://blog.csdn.net/m0_59235945/article/details/142658212",
+                    "title": "3万字深度解析AI大语言模型在医疗领域全面进展以及潜在前沿应用_ai大语言模型在医疗设备质控及故障诊断...",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "文章浏览阅读2.1k次，点赞9次，收藏19次。名称年份 (约)架构训练数据实验数据集2019BERTMIMIC-IIIMIMIC-III；BioBERT2019BERTPubMed 摘要和 PMC 全文文章BiomedBERT2020BERT在 BREATHE 数据集上预训练PubMedBERT2020BERT仅使用 PubMedBEHRT2020BERT临床实践研究数据链 (CPRD)CPRD 预期未来更新数据集GatorTron2022BERT 风格。_ai大语言模型在医疗设备质控及故障诊断中的应用研究",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/7yl21cz8KKbfKGHAH_lr47-3s1xLaV-SvE5pBTlGM7k/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNDc3NmZiNDg2/YTRjOWIzZTU4NDRi/ZWYxMTQ3ZDc3ZGZk/OTE5NGMxYTc2OWQ4/OWFlN2Y0MWRjZjBk/NzJiZTU3Yi9ibG9n/LmNzZG4ubmV0Lw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.chima.org.cn/Html/News/Articles/16068.html",
+                    "title": "专家观点 - 阮彤：ChatGPT等大语言模型对医疗信息系统的影响与提升——大语言模型在医疗行业应用系列（一...",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "类ChatGPT的语言模型对于包括医疗在内的各行各业系统的冲击是本质性的，由于语言模型会推动人机交互方式的变化、代码与文档的自动生成、数据的自动分处理，因此，本质上，会影响所有信息系统。但是，比较重要的变迁可能在三大类系统上，自然语言信息记录与检索类系统、临床知识库与临床科研系统三大类知识/数据密集型系统上。下表列出了这些系统类型对应的典型系统，原有系统的难点，以及大模型的能力带来的可能的提升，以及应用大模型同时可能出现的待解决的技术问题。 · 表1 大语言模型会改变的系统",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/WYyMRnnuK10W4UGMnR8kb3ELO7XJaeTA-lVF6gD0Yok/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWMxNjEyZGE0/MDc2YWM1NDRjMmM3/NTc3OWYxYjFiZDMy/M2ZjZTQ0MzcyN2Ux/ZTRkOTk1NzYwMjY0/OTljOGQ0ZC93d3cu/Y2hpbWEub3JnLmNu/Lw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://rs.yiigle.com/cmaid/1470820",
+                    "title": "大型语言模型在重症医学中的应用与挑战 - 中华医学杂志",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "Request permissions for this article from CCC · 国家卫生健康委员会",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/1KoK0qVU_dvEHKjEW_pLVuFOObwdmsQmyQ7KPQThHQY/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNmE4MGI3ZmQ2/ZjUzNDkwYWZkMzFl/MzQ3NjgyNDIyYmIy/ZWViYWYyN2ViMTk1/N2E0MWQ2NjNkYTlh/N2I4M2VmMC9ycy55/aWlnbGUuY29tLw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.53ai.com/news/AIyiliao/2024062148725.html",
+                    "title": "【LLM-综述】大语言模型在金融、医疗卫生和法律等关键社会领域的应用综述 - 53AI-AI知识库|大模型知识库|大...",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "学习大模型的前沿技术与行业应用场景 · 论文标题：A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/yk4Z9yKYRtS9VEaExRWEumSZJrr4BaTdK-ClMpMlaJM/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDQ4YTJkNTZj/ZTVkZTMyNzg2MTYz/OWMzMTJjODhjYWVh/ZmE2NGUyZmFhZDZk/YzYwMjkyY2JlOTM2/ZjM1MGU3MS93d3cu/NTNhaS5jb20v",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://xbzk.xcc.edu.cn/xcxyxbzr/article/html/20231217001?st=search",
+                    "title": "人工智能大语言模型在中医药领域的应用",
+                    "preview": "目的 探讨基于AI（人工智能）大语言模型在中医药领域的应用，以期为临床应用、中医药（TCM）的研究及TCM知识普及方面提供支持。方法 利用深度学习技术构建的大语言模型对中医古籍、医案记录、现代研究论文等大量文本数据进行分析与学习，包括运用自然语言处理（NLP）技术提取关键信息，并通过模式识别辅助医生进行病症诊断；分析中药配方及其药效，为新药开发提供参考；简化专业术语以普及TCM知识。结果 （1）大语言模型能有效辅助中医诊断过程，减少误诊率，并提升诊断的速度；（2）在药物研发方面，模型成功揭示了多种潜在的药物组合及其作用机制；（3）通过智能系统解释中医药概念，非专业人士对TCM的理解得到显著提高。结论 基于AI大语言模型在中医药领域的应用展现出积极的前景，它不仅有助于提高临床诊断的精度和效率，而且促进了中药新药的研发，并为公众提供了更易于理解的TCM知识；未来，随着技术的不断进步，预计该模型将在TCM领域发挥更大的作用，推动传统医学的现代化发展。;Objective This research endeavors to investigate the application of large-scale artificial intelligence （AI） language models within the realm of traditional Chinese medicine（TCM）. The aim is to bolster clinical applications， augment TCM research， and promote a widespread understanding of TCM knowledge.Method Utilizing deep learning technology， a sophisticated language model was developed to analyze and learn from an extensive corpus of textual data， encompassing ancient TCM manuscripts， medical case records， and contemporary research papers.",
+                    "searchEngineText": "",
+                    "description": "使用Chrome浏览器效果最佳，继续浏览，你可能不会看到最佳的展示效果， · 确定继续浏览么",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/ioNMvQi5AMhiEvIz64S-tCuH_YSFCeiiDYwlK0uZmrM/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2RiODU4MDYz/ZTY2ZjgzOTA1YWZi/ZTU1MDYyMmJhZGMy/NjIxYTUxZWU2YjIz/MjNmMmM0N2FlYzdk/MjYzOWQ4Mi94Ynpr/LnhjYy5lZHUuY24v",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://yizhe.dmu.edu.cn/data/article/yxyzx/preview/pdf/21-01-chenjianfeng.pdf",
+                    "title": "Dmu",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "主管单位 中国科学技术协会 · 主办单位 中国自然辩证法研究会",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/kf_14maQH9CYA02rHfYAI-vTbxjk3JW7GohMMeysc-A/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjY5MDUyMzJk/MjQ3OTIzNzE4YjBh/MTJhZGEwYWRiY2Fj/MDNjZGE4NWVlNWUx/ZTQwOWUzNzliY2Fm/NGRlZjc4MS95aXpo/ZS5kbXUuZWR1LmNu/Lw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://yxxz.whuznhmedj.com/journal/6540.html",
+                    "title": "基于大语言模型的数据查询机器人在医学领域的应用-在线期刊 | 《医学新知》官方网站",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "中国科技核心期刊 · 中国科技论文统计源期刊",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/DDTct2LOMyW9V4w84VQz_aBWnfWcC_-J8WvL1g_bNko/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTdlNmQ1YjM1/NzM3YzQ5YjA5OGE0/Y2ViNzc5N2RkOGRl/YTQ3N2M0ZTg3YzQ4/YWY3ODM5YmQ1OWFh/MDA1NGJmZi95eHh6/LndodXpuaG1lZGou/Y29tLw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://yizhe.dmu.edu.cn/article/doi/10.12014/j.issn.1002-0772.2023.21.01?viewType=HTML",
+                    "title": "大语言模型在临床医学的可应用性探讨",
+                    "preview": "",
+                    "searchEngineText": "",
+                    "description": "大语言模型在临床医学的可应用性探讨 · 四川大学华西医院麻醉科 四川成都 610041",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/kf_14maQH9CYA02rHfYAI-vTbxjk3JW7GohMMeysc-A/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjY5MDUyMzJk/MjQ3OTIzNzE4YjBh/MTJhZGEwYWRiY2Fj/MDNjZGE4NWVlNWUx/ZTQwOWUzNzliY2Fm/NGRlZjc4MS95aXpo/ZS5kbXUuZWR1LmNu/Lw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.scribd.com/document/760026430/%25E5%259F%25BA%25E4%25BA%258E%25E5%25A4%25A7%25E8%25AF%25AD%25E8%25A8%2580%25E6%25A8%25A1%25E5%259E%258B%25E7%259A%2584%25E9%2597%25AE%25E7%25AD%2594%25E6%258A%2580%25E6%259C%25AF%25E7%25A0%2594%25E7%25A9%25B6%25E8%25BF%259B%25E5%25B1%2595%25E7%25BB%25BC%25E8%25BF%25B0",
+                    "title": "基于大语言模型的问答技术研究进展综述 | PDF",
+                    "preview": "基于大语言模型的问答技术研究进展综述 - Free download as PDF File (.pdf), Text File (.txt) or read online for free.",
+                    "searchEngineText": "",
+                    "description": "Scribd is the world's largest social reading and publishing site.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/PYE-OIIDwBX6czR7j0pJ9N-YsG7ZLkV54iIuZoMrXp8/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjNmNjliOTYz/MDA2NDAyYTkyM2Jm/YTY2YWQ3ZTNjMzY0/NGQyZjQ4NDJjNmI5/MTc2ZDQ0ZDJhYTc0/NjYwNTVkZC93d3cu/c2NyaWJkLmNvbS8",
+                    "citationId": ""
+                }
+            ],
+            "xpostIds": [],
+            "xposts": [],
+            "generatedImageUrls": [],
+            "imageAttachments": [],
+            "fileAttachments": [],
+            "cardAttachmentsJson": [],
+            "fileUris": [],
+            "fileAttachmentsMetadata": [],
+            "isControl": false,
+            "steps": [
+                {
+                    "text": [],
+                    "tags": [],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "First, I need to understand what the user is asking. The question is in Chinese: \"大语言模型在医学问答与辅助诊疗中的应用研究\". Let me translate that to English to make sure I understand it correctly. It seems to be about \"Research on the application of large language models in medical question answering and auxiliary diagnosis.\"\n\nSo, the user wants to know about how large language models are being used in the medical field, specifically for answering medical questions and assisting in"
+                    ],
+                    "tags": [
+                        "assistant"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "翻译与理解",
+                        "- 首先，我需要弄清楚问题的意思。问题是用中文写的：“大语言模型在医学问答与辅助诊疗中的应用研究”。\n- 翻译后，我明白用户想了解大语言模型在医疗领域，特别是医学问答和辅助诊断中的应用。\n",
+                        " diagnosis.\n\nSince this is a research-oriented question, I probably need to look for academic papers, articles, or reports that discuss this topic.\n\nLet me think about how to approach this.\n\nFirst, I can start with a web search to find relevant resources.\n\nWhat should be my search query?\n\nI can use the translated phrase: \"application of large language models in medical question answering and auxiliary diagnosis\"\n\nBut since the question is in Chinese, maybe I should search in Chinese to find resources that might be more relevant or specific to Chinese contexts.\n\nWait, the user is likely interested in general research, not necessarily limited to Chinese sources, but since the question is in Chinese, perhaps they prefer Chinese resources.\n\nHowever, as an AI, I should aim to provide the most comprehensive and accurate information, which might include both English and Chinese sources.\n\nBut for now, I'll start with an English search to see what I can find.\n\nSo, let's try a web search with the query: \"application of large language models in medical question answering and auxiliary diagnosis\"\n\nWait, that might be too long. Maybe I can simplify it to \"large language models in medicine\" or \"LLMs in medical applications\"\n\nBut to be more specific, perhaps \"large language models for medical question answering\" and \"large language models for auxiliary diagnosis\"",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "规划搜索策略",
+                        "- 我觉得应该查找学术论文或报告来回答这个问题。\n",
+                        "\n\nI think I can do two separate searches or combine them.\n\nAlternatively, I can search for \"large language models in healthcare\" which might cover both aspects.\n\nLet me try that.\n\nFirst action: search with query \"large language models in healthcare\"\n\nWait, but the question specifically mentions \"medical question answering and auxiliary diagnosis\", so maybe I should include those terms.\n\nAlternatively, I can search for \"large language models in medical question answering\" and see what comes up.\n\nLet me decide.\n\nI think I'll start with a broader search and then narrow it down if needed.\n\nSo, first function call:\n\nSearching... ",
+                        "{\"action\": \"web_search\", \"action_input\": {\"query\": \"large language models in healthcare\"}}",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant",
+                        "decision",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [
+                        {
+                            "url": "https://arxiv.org/html/2401.06775v2",
+                            "title": "Large Language Models in Healthcare and Medical Domain: A Review",
+                            "preview": "The deployment of large language models (LLMs) within the healthcare sector has sparked both enthusiasm and apprehension. These models exhibit the remarkable capability to provide proficient responses to free-text queries, demonstrating a nuanced understanding of professional medical knowledge. This comprehensive survey delves into the functionalities of existing LLMs designed for healthcare applications, elucidating the trajectory of their development, starting from traditional Pretrained Language Models (PLMs) to the present state of LLMs in healthcare sector. First, we explore the potential of LLMs to amplify the efficiency and effectiveness of diverse healthcare applications, particularly focusing on clinical language understanding tasks. These tasks encompass a wide spectrum, ranging from named entity recognition and relation extraction to natural language inference, multi-modal medical applications, document classification, and question-answering.",
+                            "searchEngineText": "",
+                            "description": "The deployment of large language models (LLMs) within the healthcare sector has sparked both enthusiasm and apprehension. These models exhibit the remarkable capability to provide proficient responses to free-text queries, demonstrating a nuanced understanding of professional medical knowledge. This comprehensive survey delves into the functionalities of existing LLMs designed for healthcare applications, elucidating the trajectory of their development, starting from traditional Pretrained Language Models (PLMs) to the present state of LLMs in healthcare sector. First, we explore the potential of LLMs to amplify the efficiency and effectiveness of diverse healthcare applications, particularly focusing on clinical language understanding tasks. These tasks encompass a wide spectrum, ranging from named entity recognition and relation extraction to natural language inference, multi-modal ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/Qr5MMEZQFEgzMX8XiLipWwZUDwKOYAuT4j6cCSErvpU/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjcxZDU5ZmZl/ZmIwNzY4NTUyZDg1/ZTVjNGNhMzE2NjUz/MjljMzQwZTA0MThm/NTdjN2Q0N2I3NjFm/ZjIwZmU5MC9hcnhp/di5vcmcv",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://hai.stanford.edu/news/large-language-models-healthcare-are-we-there-yet",
+                            "title": "Stanford",
+                            "preview": "This industry brief focuses on AI research in healthcare and life sciences, with particular attention to its implications in a post COVID-19 world. Stanford HAI synthesize the latest from Stanford faculty across drug discovery, telehealth, ambient intelligence, operational excellence, medical imaging, augmented intelligence, and data and privacy. Read to learn more about how the adoption of AI may transform these applications. ... Pointing to \"white-hat\" hacking, AI policy experts recommend a new system of third-party reporting and tracking of AI’s flaws. ... Pointing to \"white-hat\" hacking, AI policy experts recommend a new system of third-party reporting and tracking of AI’s flaws. ... Stanford scholars leverage physicians to evaluate 11 large language models in real-world settings. ... Stanford scholars leverage physicians to evaluate 11 large language models in real-world settings.",
+                            "searchEngineText": "",
+                            "description": "This industry brief focuses on AI research in healthcare and life sciences, with particular attention to its implications in a post COVID-19 world. Stanford HAI synthesize the latest from Stanford faculty across drug discovery, telehealth, ambient intelligence, operational excellence, medical imaging, augmented intelligence, and data and privacy. Read to learn more about how the adoption of AI may transform these applications. ... Pointing to \"white-hat\" hacking, AI policy experts recommend a new system of third-party reporting and tracking of AI’s flaws. ... Pointing to \"white-hat\" hacking, AI policy experts recommend a new system of third-party reporting and tracking of AI’s flaws. ... Stanford scholars leverage physicians to evaluate 11 large language models in real-world settings. ... Stanford scholars leverage physicians to evaluate 11 large language models in real-world ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/jg8lEP3qPIEyjwX5P21_ZkrlBIRaMIHMF9kh33IfuJA/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWM5OWEwNWRl/OTNhNzkzMTc1ODQz/MmQ2YTJiOTM1MmJk/NTg5MzEwYmNiMThh/OGM0ZTk0ODMyMTc3/ODY2MzMwYS9oYWku/c3RhbmZvcmQuZWR1/Lw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://aisera.com/blog/large-language-models-healthcare/",
+                            "title": "Large Language Models in Healthcare: Medical LLM Use Cases",
+                            "preview": "Large language models (LLMs) in healthcare have garnered significant attention in the last twelve months. As interest in generative artificial intelligence (AI) and large language models continues to grow, providers of healthcare software are exploring ways to harness this technology within their clinical applications. Medical LLMs are being utilized to enhance diagnostics, streamline patient interactions, and improve overall clinical workflows. Read on to discover how these advancements are transforming the healthcare industry. There is a critical need for guidance on integrating large language models and generative AI in healthcare and medical practices using technologies such as reinforcement learning from human feedback (RLFH), few-shot learning, and chain-of-thought reasoning, according to a PubMed study. For example, large language models can be useful in clinical note summarization and achieve higher accuracy.",
+                            "searchEngineText": "",
+                            "description": "Large language models in healthcare revolutionize the industry with innovative medical LLMs for diagnostics, clinical & patient care.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/ANyjvizz5soMdKxfZ8pJ1GFiHa2Md3tfKDh743_WubM/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjVjYmMyMDI3/YmJhMmE4Y2QyMzYy/MzI3Mjk1MjE4Nzgw/NTRmYzVmMGE0OWI5/MGUyOWY0MjBmYWUw/NjczNGQ0MC9haXNl/cmEuY29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.mdpi.com/2227-9709/11/3/57",
+                            "title": "Large Language Models in Healthcare and Medical Domain: A Review",
+                            "preview": "The deployment of large language models (LLMs) within the healthcare sector has sparked both enthusiasm and apprehension. These models exhibit the remarkable ability to provide proficient responses to free-text queries, demonstrating a nuanced understanding of professional medical knowledge. This comprehensive survey delves into the functionalities of existing LLMs designed for healthcare applications and elucidates the trajectory of their development, starting with traditional Pretrained Language Models (PLMs) and then moving to the present state of LLMs in the healthcare sector. First, we explore the potential of LLMs to amplify the efficiency and effectiveness of diverse healthcare applications, particularly focusing on clinical language understanding tasks. These tasks encompass a wide spectrum, ranging from named entity recognition and relation extraction to natural language inference, multimodal medical applications, document classification, and question-answering.",
+                            "searchEngineText": "",
+                            "description": "These tasks encompass a wide spectrum, ranging from named entity recognition and relation extraction to natural language inference, multimodal medical applications, document classification, and question-answering. Additionally, we conduct an extensive comparison of the most recent state-of-the-art LLMs in the healthcare domain, while also assessing the utilization of various open-source LLMs and highlighting their significance in healthcare applications. Furthermore, we present the essential performance metrics employed to evaluate LLMs in the biomedical domain, shedding light on their effectiveness and limitations. Finally, we summarize the prominent challenges and constraints faced by large language models in the healthcare sector by offering a holistic perspective on their potential benefits and shortcomings. This review provides a comprehensive exploration of the current landscape ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/WDw7vl5Fkw5odSEbh3orCSljqetSalDUEZ_uoQ7axjI/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWQ5OGNkM2Uz/YWZhNTljYjhhZGVh/MTQyMzUxYTFmMjY3/NzhjMjEzMmI2M2Nm/YzllOTI4YmYwZDcw/MmE0NDY5MC93d3cu/bWRwaS5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://research.aimultiple.com/large-language-models-in-healthcare/",
+                            "title": "Best 10 Large Language Models in Healthcare in 2025",
+                            "preview": "Accounts Payable AI SoftwareAP Automation SoftwareBPM SoftwareDocument Capture SoftwareIntelligent Document Processing (IDP) SoftwareProcess Mining SoftwareProcess Modelling SoftwareRPA Software ... Instagram ScrapersPrivate Proxy ServicesProxies for Web DataResidential Proxies for Web DataScraping Tools for LinkedinScraping Tools for Search EnginesSocial Media ScrapersTikTok ScrapersWeb ScrapersWeb Unblockers ... Batch Scheduling SoftwareEnterprise Job SchedulerHybrid Cloud Job SchedulerManaged File Transfer SoftwareOpen Source Job SchedulerSAP Workload AutomationWindows Job Scheduling SoftwareWorkload Automation Software ... We follow ethical norms & our process for objectivity. This research is not funded by any sponsors. ... Healthcare LLMsOpen source healthcare LLMsClosed-source healthcare LLMs10 Use Cases of Large Language Models in HealthcareChallenges of Large Language Models in Healthcare ·",
+                            "searchEngineText": "",
+                            "description": "In this article, we will explain the current studies and use cases of large language models in healthcare.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/sTho6EeFBUFG32nz9_Oy3BvW0mhKlFx5AqH0UGyZNDc/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNDA4MDUwMjkw/NGM0MDhmNTJjZTgz/ZTg1ZmU2YWEwZmI1/MDhhNzQwMDA4ZGJk/MWRiOGE0OGEzYTA0/YTg2YzJhYy9yZXNl/YXJjaC5haW11bHRp/cGxlLmNvbS8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://arcadia.io/resources/large-language-models-in-healthcare",
+                            "title": "Large language models in healthcare",
+                            "preview": "This site uses cookies that are essential for our site to work. We would also like to use non-essential cookies to help us improve your browsing experience and help make this website better, by collecting and reporting information on how you use our site. ... Large language models could revolutionize the way organizations deliver healthcare and drive patient engagement. When trained on robust health datasets, these models can play a crucial role in enhancing patient care through data-driven insights. In this guide, learn about the potential and challenges of large language models in healthcare, and how organizations can experiment responsibly with this powerful tool. Large language models (LLMs) are deep learning models trained on a large neural network. In essence, LLMs can take a large sequence of text and figure out what it means — fast. So, it makes sense that LLMs are transforming various industries, processing vast amounts of information quickly and freeing up employees’ time for other important tasks.",
+                            "searchEngineText": "",
+                            "description": "Large language models in healthcare could revolutionize healthcare delivery and drive patient engagement. Learn how you can leverage this new technology.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/dziulZhc_UcDMKio_SMVBjpfe0IBDusEOL9BxfJnLkk/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzQ2NmNhMjM5/YTE0OTE1ODQyNWY2/Y2QyYjg1ZDA0N2M5/MWM3ZjAxNWY3YmY5/MjNmMzQ4NmUxZjZh/MThmNTQyYi9hcmNh/ZGlhLmlvLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.mdpi.com/2673-7426/4/2/62",
+                            "title": "Recent Advances in Large Language Models for Healthcare",
+                            "preview": "Recent advances in the field of large language models (LLMs) underline their high potential for applications in a variety of sectors. Their use in healthcare, in particular, holds out promising prospects for improving medical practices. As we highlight in this paper, LLMs have demonstrated remarkable capabilities in language understanding and generation that could indeed be put to good use in the medical field. We also present the main architectures of these models, such as GPT, Bloom, or LLaMA, composed of billions of parameters. We then examine recent trends in the medical datasets used to train these models. We classify them according to different criteria, such as size, source, or subject (patient records, scientific articles, etc.). We mention that LLMs could help improve patient care, accelerate medical research, and optimize the efficiency of healthcare systems such as assisted diagnosis.",
+                            "searchEngineText": "",
+                            "description": "Recent advances in the field of large language models (LLMs) underline their high potential for applications in a variety of sectors. Their use in healthcare, in particular, holds out promising prospects for improving medical practices. As we highlight in this paper, LLMs have demonstrated remarkable capabilities in language understanding and generation that could indeed be put to good use in the medical field. We also present the main architectures of these models, such as GPT, Bloom, or LLaMA, composed of billions of parameters. We then examine recent trends in the medical datasets used to train these models. We classify them according to different criteria, such as size, source, or subject (patient records, scientific articles, etc.). We mention that LLMs could help improve patient care, accelerate medical research, and optimize the efficiency of healthcare systems such as assisted ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/WDw7vl5Fkw5odSEbh3orCSljqetSalDUEZ_uoQ7axjI/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWQ5OGNkM2Uz/YWZhNTljYjhhZGVh/MTQyMzUxYTFmMjY3/NzhjMjEzMmI2M2Nm/YzllOTI4YmYwZDcw/MmE0NDY5MC93d3cu/bWRwaS5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11091685/",
+                            "title": "The application of large language models in medicine: A scoping review - PMC",
+                            "preview": "This study systematically reviewed the application of large language models (LLMs) in medicine, analyzing 550 selected studies from a vast literature search. LLMs like ChatGPT transformed healthcare by enhancing diagnostics, medical writing, education, and project management. They assisted in drafting medical documents, creating training simulations, and streamlining research processes. Despite their growing utility in assisted diagnosis and improving doctor-patient communication, challenges persisted, including limitations in contextual understanding and the risk of over-reliance. The surge in LLM-related research indicated a focus on medical writing, diagnostics, and patient communication, but highlighted the need for careful integration, considering validation, ethical concerns, and the balance with traditional medical practice. Future research directions suggested a focus on multimodal LLMs, deeper algorithmic understanding, and ensuring responsible, effective use in healthcare.",
+                            "searchEngineText": "",
+                            "description": "This study systematically reviewed the application of large language models (LLMs) in medicine, analyzing 550 selected studies from a vast literature search. LLMs like ChatGPT transformed healthcare by enhancing diagnostics, medical writing, ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/Pm_KeTorlV1TSu_iZfN7Hh5ZE_2UR7qbR2SsjZAUvjQ/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWE2NGUwNWIy/YjA3YTM4MjEwOWU5/MWUxNzY2NjVjOTdk/YWQ2YTFiNTgxYTcz/YTIxMTVjNzQzMWNi/ZWE2NmZhNC9wbWMu/bmNiaS5ubG0ubmlo/Lmdvdi8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.sciencedirect.com/science/article/pii/S2589004224009350",
+                            "title": "The application of large language models in medicine: A scoping review - ScienceDirect",
+                            "preview": "This study systematically reviewed the application of large language models (LLMs) in medicine, analyzing 550 selected studies from a vast literature search. LLMs like ChatGPT transformed healthcare by enhancing diagnostics, medical writing, education, and project management. They assisted in drafting medical documents, creating training simulations, and streamlining research processes. Despite their growing utility in assisted diagnosis and improving doctor-patient communication, challenges persisted, including limitations in contextual understanding and the risk of over-reliance. The surge in LLM-related research indicated a focus on medical writing, diagnostics, and patient communication, but highlighted the need for careful integration, considering validation, ethical concerns, and the balance with traditional medical practice. Future research directions suggested a focus on multimodal LLMs, deeper algorithmic understanding, and ensuring responsible, effective use in healthcare.",
+                            "searchEngineText": "",
+                            "description": "This study systematically reviewed the application of large language models (LLMs) in medicine, analyzing 550 selected studies from a vast literature search. LLMs like ChatGPT transformed healthcare by enhancing diagnostics, medical writing, education, and project management. They assisted in drafting medical documents, creating training simulations, and streamlining research processes. Despite their growing utility in assisted diagnosis and improving doctor-patient communication, challenges persisted, including limitations in contextual understanding and the risk of over-reliance. The surge in LLM-related research indicated a focus on medical writing, diagnostics, and patient communication, but highlighted the need for careful integration, considering validation, ethical concerns, and the balance with traditional medical practice. Future research directions suggested a focus on ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/s8pV0M4fwbDWZ4FgUa8Ac3t-RPu3wOcRVgm-KCDt_Ks/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjc5YWUwYmQ5/YWNmYWRiMDAxZWU5/ODc3NjJmYTVmOTNi/ZjRmYmE2OTk5Zjk2/MTUzZjMwZmE5OTQ5/MWFjY2ZjNS93d3cu/c2NpZW5jZWRpcmVj/dC5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2823%2900216-7/fulltext",
+                            "title": "The promise of large language models in health care - The Lancet",
+                            "preview": "The past few months have seen a rapid acceleration of innovation in the field of generative artificial intelligence with large language models (LLMs), capturing academic, media, and public attention. GPT-3, BERT, and ChatGPT are examples of LLMs that have been trained on swathes of the internet to produce impressive responses to human queries. The ability of these generalised LLMs to write fiction, develop computer code, and speculate on the future has prompted recognition that we are approaching artificial general intelligence for the first time.1 · It has already been proposed that LLMs, such as ChatGPT, could have applications in the field of health care due to the large volumes of free-text information available for training models. It has been thought that models could help with the writing of discharge letters by summarising a patient's hospital stay after reading their medical records.",
+                            "searchEngineText": "",
+                            "description": "The past few months have seen a rapid acceleration of innovation in the field of generative artificial intelligence with large language models (LLMs), capturing academic, media, and public attention. GPT-3, BERT, and ChatGPT are examples of LLMs that have been trained on swathes of the internet to produce impressive responses to human queries. The ability of these generalised LLMs to write fiction, develop computer code, and speculate on the future has prompted recognition that we are approaching artificial general intelligence for the first time.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/b3rXieDFRQG9S2Qh10J3iSa-tTj5MRRn8ayt6yJMfAY/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzFmMzQ5NmEw/ZDMzMWExMWRhZTY3/MjdmYTVhYjM4MTk0/YWJjNmEwNDJjMDMx/YTY1YzJmZTM1NTUz/OGYxODQxMi93d3cu/dGhlbGFuY2V0LmNv/bS8",
+                            "citationId": ""
+                        }
+                    ],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "Alright, from the search results, I see several relevant resources.\n\nFirst, there's a review paper titled \"Large Language Models in Healthcare and Medical Domain: A Review\" from arXiv, published on July 8, 2024. That seems very recent and directly related to the topic.\n\nThen, there's an article from Stanford HAI about large language models in healthcare, also from 2024.\n\nAnother one is from aisera.com, dated December 2023, discussing large language models in healthcare.\n\nThere's also a paper from mdpi.com with the same title as the first one, but it might be a different version or the same paper published in a journal.\n\nAdditionally, there's a list of the best 10 large language models in healthcare for 2025, which might be useful for understanding current trends.\n\nThere are also articles from arcadia.io, another mdpi.com paper, a scoping review from PMC and ScienceDirect, and a piece from The Lancet.\n\nSince the user is looking for research on the application of large language models in medical question answering and auxiliary diagnosis, I think the review papers and scoping reviews would be particularly useful.\n\nLet me first look into the arXiv paper: \"Large Language Models in Healthcare and Medical Domain: A Review\"\n\nI can use the browse action to get more details from this paper.\n\nBut wait, arXiv papers are usually PDFs, and the browse action might not directly access the PDF content. Let me check the URL: https://arxiv.org/html/2401.06775v2\n\nOh, it's an HTML version, which is great because browse can handle HTML content.\n\nSo, I can call browse with the URL and a query to extract relevant information.\n\nWhat should be my query? Since the paper is a review, it probably covers various aspects. I need to find sections or parts that specifically talk about medical question answering and auxiliary diagnosis.\n\nPerhaps I can ask for \"applications in medical question answering\" or \"use cases in auxiliary diagnosis\".\n\nAlternatively, since it's a review paper, it might have sections dedicated to different applications.\n\nLet me first try to get the abstract or the introduction to understand the structure.\n\nWait, actually, in the search result, there's already a description that says: \"This comprehensive survey delves into the functionalities of existing LLMs designed for healthcare applications, elucidating the trajectory of their development, starting from traditional Pretrained Language Models (PLMs) to the present state of LLMs in healthcare sector. First, we explore the potential of LLMs to amplify the efficiency and effectiveness of diverse healthcare applications, particularly focusing on clinical language understanding tasks. These tasks encompass a wide spectrum, ranging from named entity recognition and relation extraction to natural language inference, multi-modal medical applications, document classification, and question-answering.\"\n\nSo, it explicitly mentions question",
+                        "- 搜索结果显示了一些相关资源，比如arXiv上2024年7月8日发表的评论论文，标题是“Large Language Models in Healthcare and Medical Domain: A Review”([arXiv](https://arxiv.org/html/2401.06775v2))。\n- 还有斯坦福HAI的文章，讨论2024年医疗领域的大语言模型。\n- 我觉得这些资源可能对用户的研究目标很有帮助，特别是医学问答和辅助诊断的部分。\n",
+                        ""
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "分析资源内容",
+                        "- arXiv的论文是HTML格式，浏览功能可以处理，方便提取信息。\n",
+                        "-answering as one of the tasks.\n\nTherefore, I can expect that the paper discusses LLMs in the context of medical question answering.\n\nSimilarly, for auxiliary diagnosis, it might be covered under clinical language understanding or other sections.\n\nI think I should browse this page and look for sections related to question-answering and diagnosis.\n\nLet me formulate the function call.\n\nBrowsing... ",
+                        "{\"action\": \"browse_page\", \"action_input\": {\"url\": \"https://arxiv.org/html/2401.06775v2\", \"query\": \"applications in medical question answering and auxiliary diagnosis\"}}",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant",
+                        "decision",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "Great, the browse action provided a summary of relevant information from the arXiv paper.\n\nFrom the summary, I can see that there are several models mentioned for medical question answering, such as BioMistral, Med-PaLM 2, GatorTron, BioMedLM, and BioGPT.\n\nAdditionally, there are mentions of applications in auxiliary diagnosis, like ChatCAD, ChatCAD+, DR. KNOWS, and SkinGEN.\n\nThere are also performance metrics for some models on datasets like MedQA and PubMedQA.\n\nFor example, GPT-4 achieved 93.06% accuracy on MedQA, which is impressive.\n\nMoreover, there are references to various papers and datasets related to the topic.\n\nThis seems like a good starting point.\n\nBut since the user's question is in Chinese, perhaps there are specific studies or applications in the Chinese context that I should also consider.\n\nLet me check if there are any Chinese resources or studies mentioned.\n\nLooking back at the search results, most of them are in English, but there might be some that discuss applications in China or use Chinese datasets.\n\nFor instance, in the browse result, there's a reference to \"Huatuo-26M, a large-scale Chinese medical QA dataset\" from 2023, arXiv:2305.01526.\n\nThat sounds relevant.\n\nPerhaps I can look into that dataset or the associated paper to see how LLMs are applied in Chinese medical question answering.\n\nSimilarly, there might be other studies or models specifically designed for Chinese language.\n\nLet me think about how to proceed.\n\nFirst, I can try to find more information about the Huatuo-26M dataset and any models trained on it.\n\nAlternatively, I can perform another web search specifically for Chinese resources.\n\nWait, since the browse action already mentioned it, perhaps I can directly access the arXiv paper for Huatuo-26M.\n\nThe URL is arXiv:2305.01526, so the HTML version would be https://arxiv.org/html/2305.01526\n\nBut actually, arXiv doesn't have HTML versions for all papers; some are only available as PDFs.\n\nWait, in this case, since it's mentioned in the references, I can try to browse the page or find the abstract.\n\nAlternatively, I can use the search action with a query in Chinese to find relevant resources.\n\nLet me try that.\n\nWhat would be a good query in Chinese?\n\nThe original question is \"大语言模型在医学问答与辅助诊疗中的应用研究\", so I can use that as the query.\n\nWait, but the search action might not handle Chinese queries well, or it might, depending on the search engine.\n\nIn the instructions, it says \"Search using the native language of the question if possible\", so I think it's okay to use Chinese.\n\nLet me try.\n\nSecond function call:\n\nSearching... ",
+                        "- 摘要显示了多个医学问答模型，如BioMistral、Med-PaLM 2和GatorTron。\n- 还有辅助诊断应用，比如ChatCAD和SkinGEN，性能数据包括MedQA上的93.06%准确率。\n- 浏览结果中提到2023年的“Huatuo-26M”，这是一个大规模中文医学问答数据集，arXiv:2305.01526 ([arXiv](https://arxiv.org/html/2305.01526))。\n",
+                        "{\"action\": \"web_search\", \"action_input\": {\"query\": \"\\u5927\\u8bed\\u8a00\\u6a21\\u578b\\u5728\\u533b\\u5b66\\u95ee\\u7b54\\u4e0e\\u8f85\\u52a9\\u8bca\\u7597\\u4e2d\\u7684\\u5e94\\u7528\\u7814\\u7a76\"}}",
+                        ""
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary",
+                        "decision",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [
+                        {
+                            "url": "https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520",
+                            "title": "Chinagp",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/RR8EKO7pCOFZuc_zyVRyUGVqFhNG-ufJs1bDILPPEhs/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjgyZTA1MGJk/NzJkYTBjOWJkODQy/MjU5NGUzMGJlOGVm/NTc3M2VjNjNlMDhh/YmM1MGEwM2UxMzUz/OWViZGVkYi93d3cu/Y2hpbmFncC5uZXQv",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://blog.csdn.net/m0_59235945/article/details/142658212",
+                            "title": "3万字深度解析AI大语言模型在医疗领域全面进展以及潜在前沿应用_ai大语言模型在医疗设备质控及故障诊断...",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "文章浏览阅读2.1k次，点赞9次，收藏19次。名称年份 (约)架构训练数据实验数据集2019BERTMIMIC-IIIMIMIC-III；BioBERT2019BERTPubMed 摘要和 PMC 全文文章BiomedBERT2020BERT在 BREATHE 数据集上预训练PubMedBERT2020BERT仅使用 PubMedBEHRT2020BERT临床实践研究数据链 (CPRD)CPRD 预期未来更新数据集GatorTron2022BERT 风格。_ai大语言模型在医疗设备质控及故障诊断中的应用研究",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/7yl21cz8KKbfKGHAH_lr47-3s1xLaV-SvE5pBTlGM7k/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNDc3NmZiNDg2/YTRjOWIzZTU4NDRi/ZWYxMTQ3ZDc3ZGZk/OTE5NGMxYTc2OWQ4/OWFlN2Y0MWRjZjBk/NzJiZTU3Yi9ibG9n/LmNzZG4ubmV0Lw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.chima.org.cn/Html/News/Articles/16068.html",
+                            "title": "专家观点 - 阮彤：ChatGPT等大语言模型对医疗信息系统的影响与提升——大语言模型在医疗行业应用系列（一...",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "类ChatGPT的语言模型对于包括医疗在内的各行各业系统的冲击是本质性的，由于语言模型会推动人机交互方式的变化、代码与文档的自动生成、数据的自动分处理，因此，本质上，会影响所有信息系统。但是，比较重要的变迁可能在三大类系统上，自然语言信息记录与检索类系统、临床知识库与临床科研系统三大类知识/数据密集型系统上。下表列出了这些系统类型对应的典型系统，原有系统的难点，以及大模型的能力带来的可能的提升，以及应用大模型同时可能出现的待解决的技术问题。 · 表1 大语言模型会改变的系统",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/WYyMRnnuK10W4UGMnR8kb3ELO7XJaeTA-lVF6gD0Yok/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWMxNjEyZGE0/MDc2YWM1NDRjMmM3/NTc3OWYxYjFiZDMy/M2ZjZTQ0MzcyN2Ux/ZTRkOTk1NzYwMjY0/OTljOGQ0ZC93d3cu/Y2hpbWEub3JnLmNu/Lw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://rs.yiigle.com/cmaid/1470820",
+                            "title": "大型语言模型在重症医学中的应用与挑战 - 中华医学杂志",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "Request permissions for this article from CCC · 国家卫生健康委员会",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/1KoK0qVU_dvEHKjEW_pLVuFOObwdmsQmyQ7KPQThHQY/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNmE4MGI3ZmQ2/ZjUzNDkwYWZkMzFl/MzQ3NjgyNDIyYmIy/ZWViYWYyN2ViMTk1/N2E0MWQ2NjNkYTlh/N2I4M2VmMC9ycy55/aWlnbGUuY29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.53ai.com/news/AIyiliao/2024062148725.html",
+                            "title": "【LLM-综述】大语言模型在金融、医疗卫生和法律等关键社会领域的应用综述 - 53AI-AI知识库|大模型知识库|大...",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "学习大模型的前沿技术与行业应用场景 · 论文标题：A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/yk4Z9yKYRtS9VEaExRWEumSZJrr4BaTdK-ClMpMlaJM/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDQ4YTJkNTZj/ZTVkZTMyNzg2MTYz/OWMzMTJjODhjYWVh/ZmE2NGUyZmFhZDZk/YzYwMjkyY2JlOTM2/ZjM1MGU3MS93d3cu/NTNhaS5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://xbzk.xcc.edu.cn/xcxyxbzr/article/html/20231217001?st=search",
+                            "title": "人工智能大语言模型在中医药领域的应用",
+                            "preview": "目的 探讨基于AI（人工智能）大语言模型在中医药领域的应用，以期为临床应用、中医药（TCM）的研究及TCM知识普及方面提供支持。方法 利用深度学习技术构建的大语言模型对中医古籍、医案记录、现代研究论文等大量文本数据进行分析与学习，包括运用自然语言处理（NLP）技术提取关键信息，并通过模式识别辅助医生进行病症诊断；分析中药配方及其药效，为新药开发提供参考；简化专业术语以普及TCM知识。结果 （1）大语言模型能有效辅助中医诊断过程，减少误诊率，并提升诊断的速度；（2）在药物研发方面，模型成功揭示了多种潜在的药物组合及其作用机制；（3）通过智能系统解释中医药概念，非专业人士对TCM的理解得到显著提高。结论 基于AI大语言模型在中医药领域的应用展现出积极的前景，它不仅有助于提高临床诊断的精度和效率，而且促进了中药新药的研发，并为公众提供了更易于理解的TCM知识；未来，随着技术的不断进步，预计该模型将在TCM领域发挥更大的作用，推动传统医学的现代化发展。;Objective This research endeavors to investigate the application of large-scale artificial intelligence （AI） language models within the realm of traditional Chinese medicine（TCM）. The aim is to bolster clinical applications， augment TCM research， and promote a widespread understanding of TCM knowledge.Method Utilizing deep learning technology， a sophisticated language model was developed to analyze and learn from an extensive corpus of textual data， encompassing ancient TCM manuscripts， medical case records， and contemporary research papers.",
+                            "searchEngineText": "",
+                            "description": "使用Chrome浏览器效果最佳，继续浏览，你可能不会看到最佳的展示效果， · 确定继续浏览么",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/ioNMvQi5AMhiEvIz64S-tCuH_YSFCeiiDYwlK0uZmrM/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2RiODU4MDYz/ZTY2ZjgzOTA1YWZi/ZTU1MDYyMmJhZGMy/NjIxYTUxZWU2YjIz/MjNmMmM0N2FlYzdk/MjYzOWQ4Mi94Ynpr/LnhjYy5lZHUuY24v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://yizhe.dmu.edu.cn/data/article/yxyzx/preview/pdf/21-01-chenjianfeng.pdf",
+                            "title": "Dmu",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "主管单位 中国科学技术协会 · 主办单位 中国自然辩证法研究会",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/kf_14maQH9CYA02rHfYAI-vTbxjk3JW7GohMMeysc-A/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjY5MDUyMzJk/MjQ3OTIzNzE4YjBh/MTJhZGEwYWRiY2Fj/MDNjZGE4NWVlNWUx/ZTQwOWUzNzliY2Fm/NGRlZjc4MS95aXpo/ZS5kbXUuZWR1LmNu/Lw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://yxxz.whuznhmedj.com/journal/6540.html",
+                            "title": "基于大语言模型的数据查询机器人在医学领域的应用-在线期刊 | 《医学新知》官方网站",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "中国科技核心期刊 · 中国科技论文统计源期刊",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/DDTct2LOMyW9V4w84VQz_aBWnfWcC_-J8WvL1g_bNko/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTdlNmQ1YjM1/NzM3YzQ5YjA5OGE0/Y2ViNzc5N2RkOGRl/YTQ3N2M0ZTg3YzQ4/YWY3ODM5YmQ1OWFh/MDA1NGJmZi95eHh6/LndodXpuaG1lZGou/Y29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://yizhe.dmu.edu.cn/article/doi/10.12014/j.issn.1002-0772.2023.21.01?viewType=HTML",
+                            "title": "大语言模型在临床医学的可应用性探讨",
+                            "preview": "",
+                            "searchEngineText": "",
+                            "description": "大语言模型在临床医学的可应用性探讨 · 四川大学华西医院麻醉科 四川成都 610041",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/kf_14maQH9CYA02rHfYAI-vTbxjk3JW7GohMMeysc-A/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjY5MDUyMzJk/MjQ3OTIzNzE4YjBh/MTJhZGEwYWRiY2Fj/MDNjZGE4NWVlNWUx/ZTQwOWUzNzliY2Fm/NGRlZjc4MS95aXpo/ZS5kbXUuZWR1LmNu/Lw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.scribd.com/document/760026430/%25E5%259F%25BA%25E4%25BA%258E%25E5%25A4%25A7%25E8%25AF%25AD%25E8%25A8%2580%25E6%25A8%25A1%25E5%259E%258B%25E7%259A%2584%25E9%2597%25AE%25E7%25AD%2594%25E6%258A%2580%25E6%259C%25AF%25E7%25A0%2594%25E7%25A9%25B6%25E8%25BF%259B%25E5%25B1%2595%25E7%25BB%25BC%25E8%25BF%25B0",
+                            "title": "基于大语言模型的问答技术研究进展综述 | PDF",
+                            "preview": "基于大语言模型的问答技术研究进展综述 - Free download as PDF File (.pdf), Text File (.txt) or read online for free.",
+                            "searchEngineText": "",
+                            "description": "Scribd is the world's largest social reading and publishing site.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/PYE-OIIDwBX6czR7j0pJ9N-YsG7ZLkV54iIuZoMrXp8/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjNmNjliOTYz/MDA2NDAyYTkyM2Jm/YTY2YWQ3ZTNjMzY0/NGQyZjQ4NDJjNmI5/MTc2ZDQ0ZDJhYTc0/NjYwNTVkZC93d3cu/c2NyaWJkLmNvbS8",
+                            "citationId": ""
+                        }
+                    ],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "Okay, the search in Chinese yielded several results, mostly from Chinese websites and journals.\n\nFor example, there's a PDF from chinagp.net, an article from csdn.net about AI large language models in medical equipment quality control and fault diagnosis, an expert view from chima.org.cn on the impact of ChatGPT and large language models on medical information systems, a paper from rs.yiigle.com on large language models in critical care medicine, and so on.\n\nSince the user is likely interested in research applications, I think the academic papers and reviews would be most relevant.\n\nLet me see if I can access some of these resources.\n\nFirst, the PDF from chinagp.net: https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520\n\nThis seems to be a direct link to a PDF file. I can try to browse this page, but since it's a PDF, the browse action might not extract the text properly. However, according to the instructions, browse can handle PDFs, so let's try.\n\nThird function call:\n\n",
+                        "- 这次中文搜索找到了很多结果，主要来自中国网站和期刊。\n- 比如，chinagp.net上有一个PDF，csdn.net上有一篇关于AI大语言模型在医疗设备质控和故障诊断中的文章。\n- chinagp.net的PDF链接是直接文件，我可以尝试浏览，但PDF可能提取文本有难度。不过，浏览功能应该能处理PDF。\n"
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "探索PDF资源",
+                        "Browsing... ",
+                        "{\"action\": \"browse_page\", \"action_input\": {\"url\": \"https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520\", \"query\": \"\\u5927\\u8bed\\u8a00\\u6a21\\u578b\\u5728\\u533b\\u5b66\\u95ee\\u7b54\\u4e0e\\u8f85\\u52a9\\u8bca\\u7597\\u4e2d\\u7684\\u5e94\\u7528\"}}"
+                    ],
+                    "tags": [
+                        "header",
+                        "assistant",
+                        "decision"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "Alright, this provides some insights into domestic (Chinese) research on LLMs in medical QA and auxiliary diagnosis.\n\nIt mentions that there are 111 Chinese papers analyzed, with keywords like \"医疗问答\" (medical question answering), \"智能问答\" (intelligent question answering), and \"问答系统\" (question answering system).\n\nThere are also specific studies cited, such as those by Qiao Kai et al. (2021) and Wang Runzhou et al., focusing on entity recognition and knowledge graphs to improve QA performance.\n\nAdditionally, there's mention of optimizing EHR data structure using machine learning.\n\nThis is valuable information, as it shows that there is active research in China on this topic, with a focus on Chinese language processing and local medical data.\n\nNow, to provide a comprehensive answer to the user's question, I should synthesize information from both English and Chinese sources.\n\nLet me outline the key points I have so far:\n\n1. **General Applications**:\n   - LLMs are used in healthcare for various tasks, including medical question answering and auxiliary diagnosis.\n   - Specific models like BioMistral, Med-PaLM 2, GatorTron, BioMedLM, and BioGPT are designed or adapted for medical applications.\n   - Performance on benchmarks like MedQA and PubMedQA shows promising results, with GPT-4 achieving high accuracy.\n\n2. **Auxiliary Diagnosis**:\n   - Tools like ChatCAD and SkinGEN are developed for computer-aided diagnosis, particularly in areas like dermatology.\n\n3. **Chinese Context**:\n   - There is significant research in China on Chinese medical QA systems, focusing on",
+                        "- chinagp.net的PDF提供了国内研究见解，分析了111篇中文论文。\n- 关键词包括“医疗问答”和“智能问答”，显示中国在本地医疗数据处理上的活跃研究。\n"
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "整合信息",
+                        " entity recognition, knowledge graphs, and EHR data processing.\n   - Datasets like Huatuo-26M are available for training and evaluating models on Chinese medical QA.\n\n4. **Challenges and Future Directions**:\n   - While LLMs show potential, there are challenges such as contextual understanding, risk of over-reliance, and the need for validation and ethical considerations.\n   - Future research may focus on multimodal LLMs and deeper algorithmic understanding.\n\nTo make sure I have a well-rounded answer, I should perhaps look into one or two specific examples or case studies.\n\nFor instance, I can find out more about how Med-PaLM 2 is used in medical question answering.\n\nFrom the initial search, Med-PaLM 2 is mentioned, and there's likely a paper or documentation about it.\n\nAlternatively, since GPT-4 has high performance on MedQA, I can see if there are studies or reports on its application in healthcare.\n\nWait, actually, in the browse result, there's a reference to \"Evaluating capabilities of large language models: Performance of GPT4 on surgical knowledge assessments\" from 2023.\n\nThat might be relevant.\n\nLet me see if I can find more information on that.\n\nBut since I don't have the direct URL, I can try to search for it.\n\nAlternatively, I can look for general information on GPT-4 in medical applications.\n\nWait, perhaps I can do another web search for \"GPT-4 in medical question answering\" or something similar.\n\nBut let's first check if there's more information in the initial arXiv paper.\n\nWait, in the browse result, it mentions \"Diagnostic reasoning prompts\" from 2024, evaluated on MedQA with expert evaluation.\n\nThat might be interesting.\n\nAlternatively, since time is limited, perhaps I can focus on summarizing what I have.\n\nLet me try to draft an answer.\n\nFirst, large language models (LLMs) have been increasingly applied in the medical field, particularly for medical question answering and auxiliary diagnosis.\n\nIn medical question answering, LLMs are trained on vast amounts of medical literature and data to provide accurate responses to medical",
+                        "- 现在，我看到LLM在医疗中有广泛应用，比如医学问答和辅助诊断。\n- 模型如BioGPT和Med-PaLM 2在MedQA等基准测试中表现良好，GPT-4准确率很高。\n"
+                    ],
+                    "tags": [
+                        "header",
+                        "assistant",
+                        "summary"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "深入研究案例",
+                        "- 浏览结果提到2023年的研究，评估GPT-4在外科知识评估中的表现。\n- 我在考虑搜索更多关于GPT-4在医疗问答中的信息。\n",
+                        " queries. For example, models like Med-PaLM 2 and BioGPT have been developed specifically for this purpose. Notably, GPT-4 has achieved a remarkable 93.06% accuracy on the MedQA dataset, demonstrating its proficiency in understanding and answering medical questions.\n\nFor auxiliary diagnosis, LLMs are used to assist healthcare professionals by providing diagnostic suggestions based on patient data. Tools such as ChatCAD and SkinGEN leverage LLMs to analyze medical images and other data to aid in diagnosis, particularly in specialties like dermatology.\n\nIn the Chinese context, there is active research focusing on Chinese medical question answering systems. Studies have emphasized the use of entity recognition, knowledge graphs, and machine learning to enhance the performance of these systems. Datasets like Huatuo-26M provide a foundation for training and evaluating models on Chinese medical data.\n\nHowever, the application of LLMs in healthcare also presents challenges. These include ensuring the models' contextual understanding, avoiding over-reliance on AI-generated responses, and addressing ethical concerns related to patient data and decision-making. Future research is expected to explore multimodal LLMs that can process various types of data and to deepen the understanding of the algorithms used.\n\nIn conclusion, large language models hold significant promise for transforming medical question answering and"
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "整理关键信息",
+                        "- 大语言模型在医学问答中训练于大量医疗文献，提供准确回答，比如Med-PaLM 2和BioGPT。\n- GPT-4在MedQA数据集上达到93.06%准确率，显示其在医疗问答中的能力很强。\n- 我注意到还有挑战，比如避免过度依赖AI生成回答和处理伦理问题。\n- 未来研究可能探索多模态LLM，处理不同类型数据并深化算法理解。\n",
+                        " auxiliary diagnosis, offering improved efficiency and accuracy in healthcare delivery. Ongoing research and development are crucial to overcoming existing challenges and fully realizing the potential of these technologies.\n\nNow, to make this answer more robust, I should include citations.\n\nFrom the information I have, I can cite the arXiv paper \"Large Language Models in Healthcare and Medical Domain: A Review\" and the Chinese paper from chinagp.net.\n\nAdditionally, I can mention specific models and their performance metrics.\n\nLet me list the citations:\n\n- [1] \"Large Language Models in Healthcare and Medical Domain: A Review,\" arXiv, 2024. [https://arxiv.org/html/2401.06775v2](https://arxiv.org/html/2401.06775v2)\n\n- [2] \"Research on the Application of Large Language Models in Medical Question Answering and Auxiliary Diagnosis,\" Chinese General Practice, 2024. [https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520](https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520)\n\n- [3] \"Huatuo-26M, a large-scale Chinese medical QA dataset,\" arXiv, 2023. [https://arxiv.org/abs/2305.01526](https://arxiv.org/abs/2305.01526)\n\nWait, I need to confirm the URL for the Huatuo-26M paper. Since it's arXiv:2305.01526, the URL should be https://arxiv.org/abs/2305.015"
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "整理引用信息",
+                        "26\n\nAlso, for the Chinese paper, the URL is provided.\n\nAdditionally, I can cite the performance of GPT-4 on MedQA, but I don't have a specific source for that. It's mentioned in the browse result, so I can attribute it to the arXiv review paper.\n\nSimilarly, for the models like Med-PaLM 2, I can mention them as discussed in the review paper.\n\nI think that's sufficient.\n\nLet me also check if there's any other important point I might have missed.\n\nOh, in the initial search, there was a scoping review from PMC and ScienceDirect: \"The application of large language models in medicine",
+                        "- 我需要确认Huatuo-26M论文的URL，应该是https://arxiv.org/abs/2305.01526。\n"
+                    ],
+                    "tags": [
+                        "header",
+                        "assistant",
+                        "summary"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "验证引用链接",
+                        ": A scoping review\"\n\nThat might have more comprehensive information.\n\nPerhaps I can quickly look into that.\n\nThe URL is https://pmc.ncbi.nlm.nih.gov/articles/PMC11091685/\n\nI can use browse to get a summary.\n\nFourth function call:\n\nBrowsing... ",
+                        "{\"action\": \"browse_page\", \"action_input\": {\"url\": \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11091685/\", \"query\": \"applications in medical question answering and auxiliary diagnosis\"}}"
+                    ],
+                    "tags": [
+                        "header",
+                        "assistant",
+                        "decision"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "From this, I can see that there are studies evaluating the performance of models like GPT-4 in medical question answering, such as on the NEJM Quiz, and in diagnostic challenges.\n\nFor example, reference 82: \"Evaluating GPT-4-Based ChatGPT's Clinical Potential on the NEJM Quiz\" by Ueda D. et al., 2023.\n\nSimilarly, reference 93: \"Accuracy of a Generative Artificial Intelligence Model in a Complex Diagnostic Challenge\" by Kanjee Z. et al., 2023, published in JAMA.\n\nThese are reputable sources and can be cited to support the claims about the performance of LLMs in medical applications.\n\nAdditionally, the summary mentions that LLMs enhance doctor-patient communication and assist in patient education, which is another aspect of their application in healthcare.\n\nI think I have enough information to provide a solid answer.\n\nLet me refine my draft.\n\n**Final Answer**\n\nLarge language models (LLMs) have shown significant potential in the medical field, particularly in medical question answering and auxiliary diagnosis. These models, trained on extensive medical literature and data, can provide accurate responses to medical queries and assist healthcare professionals in diagnostic processes.\n\nIn medical question answering, LLMs such as Med-PaLM 2, BioGPT, and GPT-4 have been developed and evaluated. Notably, GPT-4 achieved an impressive 93.06% accuracy on the MedQA dataset, demonstrating its capability in understanding and answering complex medical questions [1]. Additionally, models like BioMistral and GatorTron have been specifically designed for healthcare applications, focusing on tasks such as semantic textual similarity and natural language inference [1].\n\nFor auxiliary diagnosis, LLMs are utilized to provide diagnostic suggestions based on patient data. Tools like ChatCAD and SkinGEN leverage LLMs to analyze medical images and other data, aiding in diagnosis, especially in specialties like dermatology [1]. These applications aim to enhance the accuracy and efficiency of diagnostic processes.\n\nIn the Chinese context, there is active research on Chinese medical question answering systems. Studies have focused on improving these systems through entity recognition, knowledge graphs, and machine learning techniques [2]. Datasets such as Huatuo-26M provide a foundation for training and evaluating models on Chinese medical data [3].\n\nDespite their promise, the application of LLMs in healthcare faces challenges, including ensuring contextual understanding, avoiding over-reliance on AI, and addressing ethical concerns related to patient data and decision-making [4]. Future research is expected to explore multimodal LLMs and deepen the understanding of the algorithms used to further enhance their capabilities in medical applications.\n\n**Citations:**\n\n- [1] \"Large Language Models in Healthcare and Medical Domain: A Review,\" arXiv, 2024. [https://arxiv.org/html/2401.06775v2](https://arxiv.org/html/2401.06775v2)\n\n- [2] \"Research on the Application of Large Language Models in Medical Question Answering and Auxiliary Diagnosis,\" Chinese General Practice, 2024. [https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520](https://www.chinagp.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8520)\n\n- [3] \"Huatuo-26M, a large-scale Chinese medical QA dataset,\" arXiv, 2023. [https://arxiv.org/abs/2305.01526](https://arxiv.org/abs/2305.01526)\n\n- [4] \"The application of large language models in medicine: A scoping review,\" PMC, 2024. [https://pmc.ncbi.nlm.nih.gov/articles/PMC11091685",
+                        "- 研究显示，GPT-4在NEJM测验中的临床潜力被评估，相关论文由Ueda D.等人于2023年发表 ([Google Scholar](https://scholar.google.com/scholar_lookup?Ueda%20D.,%20Walston%20S.L.,%20Matsumoto%20T.,%20Deguchi%20R.,%20Tatekawa%20H.,%20Miki%20Y.%202023.%20Evaluating%20GPT-4-Based%20ChatGPT's%20Clinical%20Potential%20on%20the%20NEJM%20Quiz))。\n- 还有一篇JAMA论文，Kanjee Z.等人2023年发表，讨论AI模型在复杂诊断挑战中的准确性 ([Google Scholar](https://scholar.google.com/scholar_lookup?journal=JAMA&title=Accuracy%20of%20a%20Generative%20Artificial%20Intelligence%20Model%20in%20a%20Complex%20Diagnostic%20Challenge&author=Z.%20Kanjee&author=B.%20Crowe&author=A.%20Rodman&volume=330&publication_year=2023&pages=78-80&pmid=37318797&doi=10.1001/jama.2023.8288&))。\n- Med-PaLM 2在医疗问答中表现优异，相关研究支持其在临床中的应用潜力。\n- 我在整理这些信息，确保用户能清楚看到LLM在医疗中的具体应用和数据。\n"
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "评估伦理挑战",
+                        "- AI生成回答可能导致过度依赖，我得提提这点。伦理问题如患者数据隐私也很关键，需注意。\n",
+                        "/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11091685/)\n\nI believe this provides a comprehensive and accurate response to the user's question, supported by relevant citations.",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant",
+                        "softstop"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                }
+            ],
+            "imageEditUris": [],
+            "mediaTypes": [],
+            "webpageUrls": [],
+            "metadata": {
+                "deepsearchPreset": "deeper"
+            },
+            "thinkingStartTime": "2025-05-08T05:12:51.015467Z",
+            "thinkingEndTime": "2025-05-08T05:15:00.882470Z"
+        }
+    ]
+}

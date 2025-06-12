@@ -1,0 +1,613 @@
+{
+    "responses": [
+        {
+            "responseId": "f0f99c69-d5cc-4870-a029-9f6420bf7e44",
+            "message": "所以，RAG 还没有死，它才刚刚开始。\n\n帮我调研后续的deep research deepsearch agent rag等技术",
+            "sender": "human",
+            "createTime": "2025-04-16T15:36:12.029733Z",
+            "manual": false,
+            "partial": false,
+            "shared": false,
+            "query": "",
+            "queryType": "",
+            "webSearchResults": [],
+            "xpostIds": [],
+            "xposts": [],
+            "generatedImageUrls": [],
+            "imageAttachments": [],
+            "fileAttachments": [],
+            "cardAttachmentsJson": [],
+            "fileUris": [],
+            "fileAttachmentsMetadata": [],
+            "isControl": false,
+            "steps": [],
+            "imageEditUris": [],
+            "mediaTypes": [],
+            "webpageUrls": []
+        },
+        {
+            "responseId": "bf755cf1-2381-44db-9f7f-455bd8f129b3",
+            "message": "### 关键要点\n- 研究表明，RAG（检索增强生成）技术仍在快速发展，未来几年将更加重要。\n- 深度研究代理（如OpenAI的Deep Research）似乎是RAG的先进应用，结合了自主检索和生成功能。\n- 证据倾向于认为，这些技术将在金融、科学和医疗等领域带来重大影响，但仍存在准确性和隐私问题。\n\n### 概述\nRAG技术通过从外部来源检索信息并生成响应，帮助AI系统更准确地处理实时数据。深度研究代理则进一步扩展了这一能力，能够自主执行复杂的多步骤研究任务。以下是这些技术的最新进展和未来趋势的简要说明。\n\n#### 当前状态\n目前，RAG技术正在向自适应智能、多模态集成和可持续性方向发展。深度研究代理如OpenAI的Deep Research，已在2025年推出，旨在为金融、科学和工程等领域提供深入、可靠的研究支持。\n\n#### 未来潜力\n未来，RAG和深度研究代理可能会集成实时知识图谱和边缘计算，增强在医疗和电子商务中的应用。然而，数据隐私和计算成本仍是需要解决的挑战。\n\n---\n\n### 调研报告：RAG及相关技术（如深度研究代理）的深入分析\n\nRAG（检索增强生成）技术及其相关发展，如深度研究代理和深度搜索代理，在2025年展现出强大的潜力。这些技术的进步不仅扩展了AI在信息检索和生成方面的能力，还为多个行业带来了变革性的应用。本报告详细探讨了这些技术的最新进展、未来趋势及其与RAG的关系，旨在为读者提供全面的理解。\n\n#### RAG技术的定义与背景\nRAG是一种结合检索和生成能力的AI技术，通过从数据库、文档库或网络中检索相关信息，然后利用大型语言模型（LLM）生成响应，从而减少错误、过时答案和“幻觉”（hallucination）。这一技术由Meta AI、伦敦大学学院和纽约大学的研究于2020年提出，到2023年已在企业AI应用中广泛采用，以确保准确性和实时更新，而无需重新训练模型。\n\nRAG的核心组件包括：\n- **检索引擎**：搜索数据库、文档库或向量索引。\n- **嵌入模型**：将查询和数据转换为向量以进行匹配。\n- **生成器（LLM）**：综合检索信息与现有知识生成响应。\n\n例如，在医疗领域，RAG可集成实时诊断数据、药物相互作用和临床研究信息；在金融领域，可检索实时市场报告、收益记录和宏观经济趋势；在电子商务中，可分析实时库存、用户评论和动态定价，据Forbes报道，2025年RAG在电子商务中的客户参与度提高了25% ([The Rise of Retrieval-Augmented Generation](https://www.forbes.com/councils/forbestechcouncil/2025/01/30/the-rise-of-retrieval-augmented-generation/))。\n\n#### 2025年的最新进展\n2025年，RAG技术在多个方面取得了显著进展：\n- **自适应智能**：RAG系统通过强化学习根据用户交互优化检索策略。例如，一个法律助理可能根据用户反馈优先考虑案例法。\n- **多模态集成**：RAG现在能够处理和生成文本、图像、音频和视频等多种媒体类型，为教育、医疗和娱乐领域提供了更丰富的应用。\n- **联邦学习**：开发去中心化的RAG系统，从多样化数据集学习，同时保护数据隐私，这对金融行业尤为重要。\n- **边缘计算集成**：轻量级RAG模型部署在物联网（IoT）和移动设备上，提供实时洞察，如可穿戴健康监测设备即时分析健康数据。\n- **可持续性**：通过稀疏索引和量化嵌入等算法优化，减少大规模部署的环境影响。\n- **跨学科集成**：RAG与因果推理模型结合，分析因果关系，例如在医疗领域识别治疗结果。\n\n这些进展使RAG成为下一代AI的核心技术，特别是在需要准确、实时信息的行业。\n\n#### 深度研究代理：RAG的先进应用\n深度研究代理，如OpenAI的Deep Research，是RAG技术的显著扩展。这些代理能够自主执行复杂的多步骤研究任务，通过从网络中检索信息并综合生成详细报告。虽然“RAG”术语未在所有相关文章中明确提及，但其功能与RAG原则高度一致，即检索相关外部信息并基于此生成响应。\n\n##### OpenAI的Deep Research代理\n- **发布与用途**：2025年2月，OpenAI推出了Deep Research代理，旨在帮助进行深入、复杂的知识工作研究，如金融、科学、政策和工程领域 ([OpenAI unveils a new ChatGPT agent for ‘deep research’](https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/))。它还适用于需要仔细研究的购买决策，如汽车、家电和家具。\n- **技术细节**：该代理使用OpenAI的o3“推理”AI模型的特殊版本，通过强化学习训练，适用于现实世界的任务，如网页浏览和数据分析。其处理时间为5-30分钟，可完成人类可能需要数小时的任务。\n- **可用性**：目前仅限ChatGPT Pro用户，每月100次查询，计划扩展至Plus和Team用户，并集成到移动/桌面应用程序。\n- **输出与局限**：当前输出为纯文本，计划包括嵌入图像、数据可视化和分析输出。但存在“幻觉”和错误风险，如区分权威信息与谣言，因此输出附有完整引文和思维总结以便验证。\n\n##### 与RAG的关系\n深度研究代理扩展了RAG的能力，不仅检索信息，还能自主决定检索内容并进行推理。这与RAG的未来趋势（如多模态检索和实时知识图谱）高度一致。例如，未来RAG系统可能自动更新法律或金融AI的知识图谱，这与深度研究代理的自主研究功能相辅相成。\n\n##### 竞争与开放源代码\n这一领域的竞争激烈，Hugging Face在OpenAI发布后24小时内开发了开源版本“Open Deep Research”，证明了技术开发的快速迭代 ([Hugging Face clones OpenAI’s Deep Research in 24 hours](https://arstechnica.com/ai/2025/02/after-24-hour-hackathon-hugging-faces-ai-research-agent-nearly-matches-openais-solution/))。微软也在2025年3月为其Copilot AI聊天机器人添加了类似的深度研究工具 ([Microsoft adds AI-powered deep research tools to Copilot](https://techcrunch.com/2025/03/25/microsoft-adds-ai-powered-deep-research-tools-to-copilot/))，显示了市场的活跃发展。\n\n#### 深度搜索代理与相关技术\n虽然“深度搜索代理”未明确定义，但可以理解为与深度研究代理类似的技术，专注于从网络或专用数据源中进行深入检索。SambaNova Systems在2025年3月讨论了开源深度研究代理，强调其在企业中的速度、安全性和成本效益 ([Open-Source Deep Research Agents: Enterprise-Grade Speed, Security & Saving them Millions](https://sambanova.ai/blog/open-source-deep-research-agents))，指出现有工具在安全性（企业数据隐私）和速度（快速迭代）方面的挑战。\n\n这些代理通常依赖RAG的检索引擎和嵌入模型，特别是在向量数据库（如Pinecone ([Pinecone](https://www.pinecone.io/))、FAISS ([FAISS](https://github.com/facebookresearch/faiss))和Weaviate ([Weaviate](https://weaviate.io/))）的支持下，确保高效的检索性能。\n\n#### 未来趋势（2025年及以后）\nRAG和深度研究代理的未来发展将进一步增强其功能：\n- **多模态检索**：处理图像、视频和结构化数据，以及实时传感器输入。\n- **实时知识图谱**：自动更新法律、金融和客户支持AI的知识库。\n- **混合AI架构**：结合预训练知识、微调、检索和强化学习，提供更强大的能力。\n- **能源效率**：通过硬件感知优化（如GPU/TPU架构）减少能耗。\n- **边缘设备部署**：在物联网和移动设备上运行轻量级模型，提供实时洞察。\n\n这些趋势将使RAG和深度研究代理在医疗、金融和电子商务等领域发挥更大作用，但仍需解决数据质量、隐私和计算成本的挑战。\n\n#### 行业影响与挑战\n- **行业影响**：\n  - 医疗：集成实时诊断数据和临床研究，据npj Health Systems 2025年报道，RAG在医疗系统中的应用显著提升了决策支持 ([npj Health Systems](https://www.nature.com/articles/s44401-024-00004-1))。\n  - 金融：检索实时市场报告和宏观经济趋势，支持动态决策。\n  - 电子商务：分析实时库存和用户评论，提高客户参与度。\n  - 企业AI：更新政策、遵守法规、调整库存和定价。\n\n- **挑战**：\n  - **数据质量与来源可靠性**：使用过时或误导性来源可能导致“带引文的幻觉”。\n  - **计算成本**：需要高性能向量数据库和优化管道，增加部署成本。\n  - **延迟与准确性权衡**：额外的检索步骤可能影响响应速度。\n  - **隐私与安全**：外部数据检索存在风险，需符合GDPR和HIPAA等法规。\n\n#### 结论\nRAG技术及其扩展，如深度研究代理，正在2025年及以后展现出强大的潜力。这些技术通过结合自主检索和生成能力，为金融、科学和医疗等领域提供了深入、可靠的研究支持。尽管存在准确性和隐私挑战，但未来的多模态集成和实时知识图谱将进一步增强其应用价值。企业应关注开源工具和竞争动态，以充分利用这些技术带来的机遇。\n\n#### 关键引文\n- [RAG 2024年回顾与2025年展望](https://ragflow.io/blog/the-rise-and-evolution-of-rag-in-2024-a-year-in-review)\n- [RAG 2025及以后的未来趋势](https://www.chitika.com/future-trends-in-retrieval-augmented-generation-what-to-expect-in-2025-and-beyond/)\n- [RAG 2025终极指南](https://www.chitika.com/retrieval-augmented-generation-rag-the-definitive-guide-2025/)\n- [RAG最新发展](https://celerdata.com/glossary/latest-developments-in-retrieval-augmented-generation)\n- [RAG 2025指南](https://www.edenai.co/post/the-2025-guide-to-retrieval-augmented-generation-rag)\n- [RAG 2025及以后的状态](https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/)\n- [开发者必知的RAG最新进展](https://www.linkedin.com/pulse/latest-advancements-rag-every-developer-should-know-pavan-belagatti-jommc)\n- [RAG革命化AI 2025](https://www.glean.com/blog/rag-retrieval-augmented-generation)\n- [2025年1月RAG十大论文](https://hub.athina.ai/top-10-rag-papers-from-january-2025-2/)\n- [OpenAI推出深度研究ChatGPT代理](https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/)\n- [OpenAI深度研究代理冲击白领工作](https://www.wired.com/story/openais-deep-research-agent-is-coming-for-white-collar-work/)\n- [OpenAI推出可匹敌研究分析师的深度研究工具](https://www.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepseek)\n- [Hugging Face在24小时内克隆OpenAI深度研究](https://arstechnica.com/ai/2025/02/after-24-hour-hackathon-hugging-faces-ai-research-agent-nearly-matches-openais-solution/)\n- [搜索的下一波：AI模式、深度研究及以后](https://searchengineland.com/search-ai-mode-deep-research-453744)\n- [OpenAI发布加速在线研究的AI代理](https://www.bloomberg.com/news/articles/2025-02-03/openai-releases-ai-agent-aimed-at-speeding-up-online-research)\n- [开源深度研究代理：企业级速度、安全性与成本节约](https://sambanova.ai/blog/open-source-deep-research-agents)\n- [微软为Copilot添加AI驱动的深度研究工具](https://techcrunch.com/2025/03/25/microsoft-adds-ai-powered-deep-research-tools-to-copilot/)\n- [RAG在生成AI中的演变](https://www.aporia.com/learn/evolution-of-rag-in-generative-ai/?ref=chitika.com)\n- [2025年RAG的预期趋势和进展](https://www.quepasa.ai/post/anticipated-trends-and-advancements-in-rag-for-2025?ref=chitika.com)\n- [Pinecone向量数据库](https://www.pinecone.io/)\n- [FAISS开源向量库](https://github.com/facebookresearch/faiss)\n- [Weaviate向量数据库](https://weaviate.io/)\n- [RAG在医疗系统中的应用](https://www.nature.com/articles/s44401-024-00004-1)\n- [RAG在电子商务中的崛起](https://www.forbes.com/councils/forbestechcouncil/2025/01/30/the-rise-of-retrieval-augmented-generation/)",
+            "sender": "ASSISTANT",
+            "createTime": "2025-04-16T15:37:24.796900Z",
+            "parentResponseId": "f0f99c69-d5cc-4870-a029-9f6420bf7e44",
+            "manual": false,
+            "partial": false,
+            "shared": false,
+            "query": "",
+            "queryType": "",
+            "webSearchResults": [
+                {
+                    "url": "https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality",
+                    "title": "AI Agents in 2025: Expectations vs. Reality | IBM",
+                    "preview": "For 2025, the dominant innovation narrative is the AI agent. But what can we realistically expect from agentic AI in 2025, and how will it affect our lives?",
+                    "searchEngineText": "",
+                    "description": "We’d barely surfaced from a landslide of NFT and crypto hype that characterized the early 2020s, and the metaverse bubble that followed, before media voices began singing the praises of generative AI (gen AI) in the wake of releases such as OpenAI’s GPT model family, Anthropic’s Claude and Microsoft’s Copilot. While the chorus hasn’t moved on entirely, the focus in 2025 has shifted from large language models (LLMs) to advancements in the ostensibly autonomous artificial intelligence (AI) agents ushering in the future of work. Despite a momentary surge in gen AI interest around Deepseek’s R1, which promised significant performance improvements over ChatGPT, the dominant innovation narrative in 2025 is the AI agent. Media coverage highlights the promises of innovation, automation and efficiency agents will bring, but how much of the conversation is click-hungry hype?",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/gJo5PPZlmxVqT1Mfxsgvto9n-SflVw3VR1apaQhjjnI/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWI0MWQyYmEy/MTNmNWVkODQ2ODFj/ZjYxMjk4YjI3NmY5/Yjk5M2E0YjhjNWZi/OGUyODMzNzllOTQx/M2I4ZDc2My93d3cu/aWJtLmNvbS8",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/",
+                    "title": "OpenAI unveils a new ChatGPT agent for ‘deep research’ | TechCrunch",
+                    "preview": "OpenAI is announcing a new AI “agent” designed to help people conduct in-depth, complex research using ChatGPT, the company’s AI-powered chatbot platform. Appropriately enough, it’s called deep research. OpenAI said in a blog post published Sunday that this new capability was designed for “people who do intensive knowledge work in areas like finance, science, policy, and engineering and need thorough, precise, and reliable research.” It could also be useful, the company added, for anyone making “purchases that typically require careful research, like cars, appliances, and furniture.” · Basically, ChatGPT deep research is intended for instances where you don’t just want a quick answer or summary, but instead need to assiduously consider information from multiple websites and other sources. OpenAI said it’s making deep research available to ChatGPT Pro users today, limited to 100 queries per month, with support for Plus and Team users coming next, followed by Enterprise.",
+                    "searchEngineText": "",
+                    "description": "OpenAI is announcing a new AI \"agent\" designed to help people conduct in-depth, complex research using ChatGPT, the company's AI-powered chatbot platform.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/ksO7ulCblHBP_AfkpIHWWPO5x7Os-PHar40KEb9784M/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZGI5Njk0Yzlk/YWM3ZWMwZjg1MTM1/NmIyMWEyNzBjZDZj/ZDQyNmFlNGU0NDRi/MDgyYjQwOGU0Y2Qy/ZWMwNWQ2ZC90ZWNo/Y3J1bmNoLmNvbS8",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.nytimes.com/2025/02/02/technology/openai-deep-research-tool.html",
+                    "title": "OpenAI Unveils New A.I. Agent for Research - The New York Times",
+                    "preview": "While chatbots can answer questions, write poems and generate images, agents like Deep Research can perform tasks using other software and services on the internet.Credit...OpenAI ... Feb. 2, 2025 · A week ago, OpenAI released a tool that can go online to shop for groceries or book a restaurant reservation. Now it is offering A.I. technology that can gather information from across the internet and synthesize it in concise reports. OpenAI unveiled the new tool, called Deep Research, with a demonstration on YouTube on Sunday, days after showing the technology to lawmakers, policymakers and other officials in Washington. “It can do complex research tasks that might take a person anywhere from 30 minutes to 30 days,” Kevin Weil, OpenAI’s chief product officer, said at the event in Washington. By contrast, Deep Research can accomplish such tasks in five to 30 minutes, depending on the complexity.",
+                    "searchEngineText": "",
+                    "description": "While chatbots can answer questions, write poems and generate images, agents like Deep Research can perform tasks using other software and services on the internet.Credit...OpenAI ... Feb. 2, 2025 · A week ago, OpenAI released a tool that can go online to shop for groceries or book a restaurant reservation. Now it is offering A.I. technology that can gather information from across the internet and synthesize it in concise reports. OpenAI unveiled the new tool, called Deep Research, with a demonstration on YouTube on Sunday, days after showing the technology to lawmakers, policymakers and other officials in Washington. “It can do complex research tasks that might take a person anywhere from 30 minutes to 30 days,” Kevin Weil, OpenAI’s chief product officer, said at the event in Washington. By contrast, Deep Research can accomplish such tasks in five to 30 minutes, depending ...",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/xR253Nb8i1AmnxD0XR3MwBWtEY7cTcgMoHLhO9dEm8Q/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMGFlZWRkYmVh/YWFhZmFjYjM4MWYy/NTQzZmExMTIwN2Nm/NGJmZjgwYTRhYjI5/OTliM2JkYmI2MWY0/M2RlOGFlMi93d3cu/bnl0aW1lcy5jb20v",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.wired.com/story/openais-deep-research-agent-is-coming-for-white-collar-work/",
+                    "title": "OpenAI’s Deep Research Agent Is Coming for White-Collar Work | WIRED",
+                    "preview": "OpenAI’s Deep Research Agent Is Coming for White-Collar Work · More · Search · Security · Politics · Gear · The Big Story · Business · Science · Culture · Ideas · Merch · Podcasts · Video · Newsletters · Magazine · Travel · Steven Levy's Plaintext Column · WIRED Classics from the Archive · Events · WIRED Insider · WIRED Consulting · Coupons · By Will Knight · BusinessMar 19, 2025 12:00 PM · The research-focused agent shows how a new generation of more capable AI models could automate some office tasks. Photo-Illustration: WIRED Staff/Getty Images · Save · Save · Isa Fulford, a researcher at OpenAI, had a hunch that Deep Research would be a hit even before it was released. Fulford had helped build the artificial intelligence agent, which autonomously explores the web, deciding for itself what links to click, what to read, and what to collate into an in-depth report.",
+                    "searchEngineText": "",
+                    "description": "The research-focused agent shows how a new generation of more capable AI models could automate some office tasks.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/GNoiGZDdt9L4M79PLpTT419w51Epn2LPCyD9uDQzZNs/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDQ2YjNlNDVl/NTA3ODNiYjA0NTVk/OWJmYjU2NTk3MGM0/ZDMwOTY3ODI4Zjg2/ZmQ4OGQ3OTZhMDcw/NWIyNWFmYi93d3cu/d2lyZWQuY29tLw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepseek",
+                    "title": "OpenAI launches ‘deep research’ tool that it says can match research analyst | OpenAI | The Guardian",
+                    "preview": "ChatGPT developer announces AI agent amid growing challenge from rivals such as China’s DeepSeek · Dan Milmo Global technology editor · Mon 3 Feb 2025 08.26 ESTLast modified on Mon 3 Feb 2025 09.57 EST · Share · OpenAI has stepped up its development of artificial intelligence agents by announcing a new tool that crafts reports which it claims can match the output of a research analyst. The ChatGPT developer said the new tool, “deep research”, “accomplishes in 10 minutes what would take a human many hours”. The announcement comes just a couple of days after the San Francisco-based company said it would speed up product releases in response to advances made by OpenAI’s Chinese rival DeepSeek. “Deep research” is an AI agent – the term for a system that can carry out tasks on users’ behalf – and is powered by a version of OpenAI’s latest cutting-edge model, o3.",
+                    "searchEngineText": "",
+                    "description": "ChatGPT developer announces AI agent amid growing challenge from rivals such as China’s DeepSeek",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/PV9A_vXdPNG1tLs7pZO1A0JOjcCvraOKtoLBW4egC8I/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGRmYTNkMTZl/NmJhYTQwYmQ4NDRj/MzQ4NDZkNGQ0YTgy/ZWRlZDM4YWVkMzM4/NmM0Y2Y2NTgyMTQ5/NzQxOTExYy93d3cu/dGhlZ3VhcmRpYW4u/Y29tLw",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://arstechnica.com/ai/2025/02/after-24-hour-hackathon-hugging-faces-ai-research-agent-nearly-matches-openais-solution/",
+                    "title": "Hugging Face clones OpenAI’s Deep Research in 24 hours - Ars Technica",
+                    "preview": "Search dialog... Sign In · Sign in dialog... Sign in · Agents everywhere · Open source \"Deep Research\" project proves that agent frameworks boost AI model capability. Benj Edwards – Feb 5, 2025 3:55 pm | 43 · Credit: 3alexd via Getty Images · Credit: 3alexd via Getty Images · Text settings · Story text · Size · Small · Standard · Large Width * Standard · Wide Links · Standard · Orange · * Subscribers only Learn more Minimize to nav · On Tuesday, Hugging Face researchers released an open source AI research agent called \"Open Deep Research,\" created by an in-house team as a challenge 24 hours after the launch of OpenAI's Deep Research feature, which can autonomously browse the web and create research reports. The project seeks to match Deep Research's performance while making the technology freely available to developers. \"While powerful LLMs are now freely available in open-source, OpenAI didn’t disclose much about the agentic framework underlying Deep Research,\" writes Hugging Face on its announcement page.",
+                    "searchEngineText": "",
+                    "description": "Open source “Deep Research” project proves that agent frameworks boost AI model capability.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/e9bY1EYFgjDbzuYF9Y97Is9OIWGnrZc2Z-p2BrTVvVw/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOGJlOTQ4ZDZm/Zjg3MWQwY2NmYjI0/NzRmM2U0MTAzODQx/ZGU3YTFmMDljOGNj/ZmZkNTdlNDRhMjZm/ZGM4NDk3Ni9hcnN0/ZWNobmljYS5jb20v",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://searchengineland.com/search-ai-mode-deep-research-453744",
+                    "title": "The next wave of search: AI Mode, deep research and beyond",
+                    "preview": "Search Engine Land » SEO » The next wave of search: AI Mode, deep research and beyond · Constance Chen on March 31, 2025 at 9:00 am | Reading time: 7 minutes ... Please note that your conversations will be recorded. I am trained with Search Engine Land content. Ask me anything! SearchBot is thinking ... ... With the rise of AI-powered features, search engines are not just directing users to information but delivering answers directly.  · This shift is redefining how people interact with the web, raising questions about the future of SEO, content discovery, and digital marketing.  · Here’s what’s coming next. The world has seen rapid and significant advances in AI technology and large language models (LLMs) within two years.  · Looking back just three years ago, Google’s Gemini and Meta’s LLAMA did not exist, and OpenAI’s ChatGPT was later released in late November 2022.",
+                    "searchEngineText": "",
+                    "description": "Discover how deep research and agentic AI models are transforming search and the way users find information.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/zbcZLJvy5GpYHvrycy1GVRLD3HzXvaA9T3sSOPA4f9o/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDI2ZDllMmRh/MDc5YWJmNDVlYzhi/MzM4NTQwYmM5NDBj/OWNlYTBlNzQ5ZTRj/Yzc2YjY4NjU3MTll/YzAyMzkyNi9zZWFy/Y2hlbmdpbmVsYW5k/LmNvbS8",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://www.bloomberg.com/news/articles/2025-02-03/openai-releases-ai-agent-aimed-at-speeding-up-online-research",
+                    "title": "OpenAI Releases AI Agent Aimed at Speeding Up Online Research - Bloomberg",
+                    "preview": "The feature, called Deep Research, is designed to speed up tasks that would take a person “many hours.” · OpenAI CEO Sam Altman has previously said agents will be “the next giant breakthrough” for AI. Photographer: Yuichi Yamazaki/AFP/Getty Images · Gift this article · How easy or hard was it to use Bloomberg.com today? Share feedback · Have a confidential tip for our reporters? Get in Touch · Before it’s here, it’s on the Bloomberg Terminal · LEARN MORE · By Rachel Metz · February 2, 2025 at 7:00 PM EST · Save · OpenAI is releasing a new artificial intelligence tool that’s designed to carry out time-consuming online research for users about everything from complex science questions to car recommendations — expanding the startup’s portfolio of AI agents that act on a person’s behalf. The service, called Deep Research, will be available to certain paying customers through OpenAI’s ChatGPT chatbot online, the company said in a blog post on Sunday.",
+                    "searchEngineText": "",
+                    "description": "The feature, called Deep Research, is designed to speed up tasks that would take a person “many hours.”",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/V8IMZuZFop5gKYYb9vkAVSCK0hsnjRiGXNSajyOHs6U/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNDJhNjMyMGE1/YzY3MzRjMDAzZDU5/YzJiMWZlZmI4Yjkx/OWQyN2IzYzU1MjYw/ZDQyMjVjYzdjZWRi/ZTM5Njg4ZC93d3cu/Ymxvb21iZXJnLmNv/bS8",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://sambanova.ai/blog/open-source-deep-research-agents",
+                    "title": "Open-Source Deep Research Agents: Enterprise-Grade Speed, Security & Saving them Millions",
+                    "preview": "Contributions to the project are highly encouraged to make this the best Open Source Deep Research tool on the planet. Code your genius, “Bring Your Own Agent” AI (BYOAI) style! Deploy your SambaNova-powered agent, share your breakthroughs online (tag us on social), and let your AI agents shine. Stay tuned for some upcoming contests and prizes for the best contributions to the project! We are excited to see more enterprises adopt open source and build fast, affordable agents that deliver value for their customers and employees. ... Copyright © 2025 SambaNova Systems, Inc. All rights reserved ... Customers turn to SambaNova to quickly deploy state-of-the-art AI capabilities to meet the demands of the AI-enabled world. Our purpose-built enterprise-scale AI platform is the technology backbone for the next generation of AI computing. We enable customers to unlock the valuable business insights trapped in their data.",
+                    "searchEngineText": "",
+                    "description": "Agents have emerged as a major trend for AI in 2025. Specifically, Deep Research agents are one of the most notable examples that we have seen released from companies such as Google, OpenAI, Perplexity, X.AI, and just recently Manus. All these agents allow users to generate detailed reports on any topic of their choosing as long as the data is publicly accessible. However, there are three major critical barriers that enterprises face using these tools today:  · Security: A large percentage of enterprise data must remain private on-premise and thus inaccessible to existing Deep Research tools. Speed: Deep Research tools today are often very slow and cannot be used for quick iteration and urgent use cases. Cost: Because deep research agents consume many more tokens, the costs for running these systems is increasing exponentially, especially with OpenAI.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/BKW8nYBLsuUIpjmVYmsuWin6TXYyUNtLUCar4ZBlIro/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjNjYWMwYWM0/NjliNjdiZWUzMjI3/ODUxZWM0ZDQ5NjVh/N2E2MWNlNTc4Yzgz/ZTQxZTM3NTM4ZGJj/YTcwYmRlZC9zYW1i/YW5vdmEuYWkv",
+                    "citationId": ""
+                },
+                {
+                    "url": "https://techcrunch.com/2025/03/25/microsoft-adds-ai-powered-deep-research-tools-to-copilot/",
+                    "title": "Microsoft adds AI-powered deep research tools to Copilot | TechCrunch",
+                    "preview": "Site Search Toggle · Mega Menu Toggle · Latest · AI · Amazon · Apps · Biotech & Health · Climate · Cloud Computing · Commerce · Crypto · Enterprise · EVs · Fintech · Fundraising · Gadgets · Gaming · Google · Government & Policy · Hardware · Instagram · Layoffs · Media & Entertainment · Meta · Microsoft · Privacy · Robotics · Security · Social · Space · Startups · TikTok · Transportation · Venture · Events · Startup Battlefield · StrictlyVC · Newsletters · Podcasts · Videos · Partner Content · TechCrunch Brand Studio · Crunchboard · Contact Us · Sign In · Image Credits:Rafael Henrique/SOPA Images/LightRocket / Getty Images · AI · Kyle Wiggers · 7:45 PM PDT · March 25, 2025 · Microsoft is introducing a “deep research” AI-powered tool in Microsoft 365 Copilot, its AI chatbot app. There’s been a raft of deep research agents launched recently across chatbots, including OpenAI’s ChatGPT, Google’s Gemini, and xAI’s Grok.",
+                    "searchEngineText": "",
+                    "description": "Microsoft is introducing a \"deep research\" AI-powered tool in Microsoft 365 Copilot to compete with similar tools from OpenAI and Google.",
+                    "siteName": "",
+                    "metadataTitle": "",
+                    "creator": "",
+                    "image": "",
+                    "favicon": "https://imgs.search.brave.com/ksO7ulCblHBP_AfkpIHWWPO5x7Os-PHar40KEb9784M/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZGI5Njk0Yzlk/YWM3ZWMwZjg1MTM1/NmIyMWEyNzBjZDZj/ZDQyNmFlNGU0NDRi/MDgyYjQwOGU0Y2Qy/ZWMwNWQ2ZC90ZWNo/Y3J1bmNoLmNvbS8",
+                    "citationId": ""
+                }
+            ],
+            "xpostIds": [],
+            "xposts": [],
+            "generatedImageUrls": [],
+            "imageAttachments": [],
+            "fileAttachments": [],
+            "cardAttachmentsJson": [],
+            "fileUris": [],
+            "fileAttachmentsMetadata": [],
+            "isControl": false,
+            "steps": [
+                {
+                    "text": [],
+                    "tags": [],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "The user is asking about RAG (Retrieval-Augmented Generation) and related technologies like deep research, deep search agents, etc. They mentioned that RAG is just beginning, so I need to find out what's new or upcoming in this area.\n\nFirst, I should understand what RAG is. It's a technique in AI where a model retrieves relevant information from a database or the web and then generates a response based on that information. It's used to make AI models more knowledgeable and up-to-date.\n\nSince the user mentioned \"deep research\" and \"deep search agent,\" I think they might be referring to advanced systems that can perform in-depth searches or research tasks, possibly integrating with RAG or similar technologies.\n\nTo start, I should search for recent developments or advancements in RAG and related technologies.\n\nLet me think about how to phrase the search query. I want something that captures the latest trends or innovations in RAG and deep search technologies.\n\nPerhaps something like: \"latest advancements in RAG technology 2025\"\n\nBut since it's 2025, I should make sure the search is current.\n\nI can also search for \"deep search agents\" or \"AI research agents\" to see if there are specific systems or projects that fit the description.\n\nLet me start with a general search on RAG advancements.\n\n"
+                    ],
+                    "tags": [
+                        "assistant"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "了解RAG技术",
+                        "- 用户询问RAG（检索增强生成）及相关技术，如深度研究、深度搜索代理等。RAG刚起步，我得找出这领域的新动态或未来趋势。\n- RAG是AI技术，通过从数据库或网络检索相关信息生成响应，用来提升模型的知识和时效性。\n",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "规划搜索策略",
+                        "- 用户提到“深度研究”和“深度搜索代理”，可能指能\n",
+                        "Searching... ",
+                        "{\"action\": \"web_search\", \"action_input\": {\"query\": \"latest advancements in RAG technology 2025\"}}",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant",
+                        "decision",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [
+                        {
+                            "url": "https://ragflow.io/blog/the-rise-and-evolution-of-rag-in-2024-a-year-in-review",
+                            "title": "The Rise and Evolution of RAG in 2024 A Year in Review | RAGFlow",
+                            "preview": "The enterprise version of RAGFlow also uses this architecture for document processing. Although generative AI model inference cannot run on CPUs, their generalization ability across various scenarios has significantly improved compared to traditional visual models. Another advantage of using multimodal models for document intelligence is the ability to incorporate textual information into document layouts. A representative work this year, M2Doc [Reference 23], integrates BERT into a vision-based Encoder-Decoder architecture, enhancing the identification of semantic boundaries for text and paragraphs. In the upcoming year of 2025, research based on Encoder-Decoder architectures is expected to advance further. We can anticipate the potential development of a unified multi-modal document parsing model capable of accurately converting various unstructured documents into text content.",
+                            "searchEngineText": "",
+                            "description": "As 2024 comes to a close, the development of Retrieval-Augmented Generation (RAG) has been nothing short of turbulent. Let's take a comprehensive look back at the year's progress from various perspectives.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/RBJrDjWEzavjpQdwSObFJ4LZJGhcBw10rKrR0Qn-hGg/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTBjNzQ4Nzhh/NTAwZDFiOGYxMzY2/MTMxOWNmNGQ3NDVl/Nzg2MTM3YzAyNGZh/NzdjNGU0ZjUwNjc5/ODkzOGE2OC9yYWdm/bG93LmlvLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.chitika.com/future-trends-in-retrieval-augmented-generation-what-to-expect-in-2025-and-beyond/",
+                            "title": "What Are the Future Trends in RAG for 2025 and Beyond?",
+                            "preview": "Uncover the upcoming trends in Retrieval-Augmented Generation (RAG). Explore what’s shaping its future in 2025 and beyond!",
+                            "searchEngineText": "",
+                            "description": "Dive into the future of Retrieval-Augmented Generation (RAG). Discover key trends and innovations shaping 2025 and the years to come!",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/EwTe6NV5U0BWnwWhPSsZQsfNg4AG0oaZiLYnbJYYW7U/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWJkOWRjMzY1/NmU0ODg3ZGMwZjA5/MGIwZWYyYTI1ZmE0/NzY2NWY2ODdhY2Nk/NWVlZDA1ZDVjOTYw/OTE2MjcxNy93d3cu/Y2hpdGlrYS5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.chitika.com/retrieval-augmented-generation-rag-the-definitive-guide-2025/",
+                            "title": "Retrieval-Augmented Generation (RAG): 2025 Definitive Guide",
+                            "preview": "Future advancements and trends in RAG technology beyond 2025 are expected to focus on multimodal integration, adaptive intelligence, and · sustainability. Multimodal RAG systems will expand their capabilities to seamlessly process and generate responses across diverse media types, such as text, images, audio, and video, enabling richer and more interactive applications in fields like education, healthcare, and entertainment. Adaptive intelligence will drive the development of self-improving RAG systems that refine their retrieval and generation strategies based on real-time user interactions and feedback, ensuring more personalized and context-aware outputs. Additionally, federated learning is anticipated to play a significant role, allowing decentralized RAG systems to operate securely across multiple devices while preserving data privacy. Sustainability will also become a priority, with advancements in energy-efficient algorithms and hardware optimizations reducing the environmental impact of large-scale RAG deployments.",
+                            "searchEngineText": "",
+                            "description": "Future advancements and trends in RAG technology beyond 2025 are expected to focus on multimodal integration, adaptive intelligence, and · sustainability. Multimodal RAG systems will expand their capabilities to seamlessly process and generate responses across diverse media types, such as text, images, audio, and video, enabling richer and more interactive applications in fields like education, healthcare, and entertainment. Adaptive intelligence will drive the development of self-improving RAG systems that refine their retrieval and generation strategies based on real-time user interactions and feedback, ensuring more personalized and context-aware outputs. Additionally, federated learning is anticipated to play a significant role, allowing decentralized RAG systems to operate securely across multiple devices while preserving data privacy. Sustainability will also become a priority, ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/EwTe6NV5U0BWnwWhPSsZQsfNg4AG0oaZiLYnbJYYW7U/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWJkOWRjMzY1/NmU0ODg3ZGMwZjA5/MGIwZWYyYTI1ZmE0/NzY2NWY2ODdhY2Nk/NWVlZDA1ZDVjOTYw/OTE2MjcxNy93d3cu/Y2hpdGlrYS5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://celerdata.com/glossary/latest-developments-in-retrieval-augmented-generation",
+                            "title": "Latest Developments in Retrieval-Augmented Generation",
+                            "preview": "The workflow of RAG involves several steps. First, the system retrieves data from various sources. Next, it processes this data using generative models. Finally, it delivers a response tailored to your query. This process is efficient and effective, thanks to advancements in FLock.io and MoFo Tech. These technologies enhance the speed and accuracy of RAG systems. ... Lessons Learned and Failure Points in RAG Systems highlight the importance of robust systems. Developers must address challenges to ensure reliability. Impact of Retrieval Augmented Generation (RAG) Systems emphasizes the benefits and challenges of integrating dynamic information retrieval with generative processes. By understanding these components and processes, you can appreciate the transformative potential of RAG. As you explore this technology, consider the insights of experts like Justin Haan and organizations like Morrison Foerster.",
+                            "searchEngineText": "",
+                            "description": "Explore the latest in Retrieval-Augmented Generation, its applications, challenges, and future trends in enhancing AI outputs.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/k3bQkotqSU2B3IcbANVCDMbq_r_olbyYSIuEAfUn8ic/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjcyYmQzMWI1/ODI2Yzc3ODczNGJl/NWVmZDQzNzBjOTYy/OGIxYzAyY2U2MGU5/YTI2OGJmZTIxYTI1/YzdhZDg1Yy9jZWxl/cmRhdGEuY29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.edenai.co/post/the-2025-guide-to-retrieval-augmented-generation-rag",
+                            "title": "The 2025 Guide to Retrieval-Augmented Generation (RAG)",
+                            "preview": "In conclusion, Retrieval-Augmented Generation (RAG) is set to remain a cornerstone of information retrieval and generation in 2025, offering a powerful fusion of advanced retrieval methods and sophisticated language models. As organizations continue to face the challenge of managing expansive knowledge bases and responding to increasingly complex queries, RAG systems have adapted and evolved to meet these needs. The various RAG techniques discussed—such as Traditional RAG, Long RAG, Self-RAG, Corrective RAG, Golden-Retriever RAG, Adaptive RAG, and GraphRAG—highlight the range of solutions available, each tailored to different complexities and specific requirements. The choice of technique is crucial, depending on factors like domain-specific language or the integration of knowledge graphs for enhanced insights. As AI technology advances, RAG frameworks will remain instrumental in providing smart, scalable solutions that empower industries to harness information with greater precision and efficiency.",
+                            "searchEngineText": "",
+                            "description": "In conclusion, Retrieval-Augmented Generation (RAG) is set to remain a cornerstone of information retrieval and generation in 2025, offering a powerful fusion of advanced retrieval methods and sophisticated language models. As organizations continue to face the challenge of managing expansive knowledge bases and responding to increasingly complex queries, RAG systems have adapted and evolved to meet these needs. The various RAG techniques discussed—such as Traditional RAG, Long RAG, Self-RAG, Corrective RAG, Golden-Retriever RAG, Adaptive RAG, and GraphRAG—highlight the range of solutions available, each tailored to different complexities and specific requirements. The choice of technique is crucial, depending on factors like domain-specific language or the integration of knowledge graphs for enhanced insights. As AI technology advances, RAG frameworks will remain instrumental ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/8rQyJc8g78sFV2ua6HHcPCfao6zzdKggI0Awb_dcYkk/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvY2JmMzg5NjNm/YTFmNDc3OTBkYWY3/Nzg0NjAyNWUwNTVj/NWI1OWNhNTYwYjRk/YTlhMzk3ODVmMDJm/ZjE2ODgwMy93d3cu/ZWRlbmFpLmNvLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/",
+                            "title": "The State of Retrieval-Augmented Generation (RAG) in 2025 and Beyond - Aya Data",
+                            "preview": "Collectively, these advancements will redefine RAG as more than a retrieval tool, enhancing AI’s accuracy, context, and decision-making as it becomes more complex and multi-modal.  · RAG is undoubtedly a core AI technology with a long future ahead of itself. Right now, its primary role is equipping AI with real-time, reliable information, but its potential goes far beyond that.  · The next generation of AI will integrate multimodal retrieval, real-time knowledge graphs, and hybrid architectures, combining retrieval with reasoning and adaptability. AI that can’t access dynamic, reliable information will struggle to stay relevant. This is where Aya Data comes in. We help businesses implement cutting-edge RAG solutions, ensuring AI systems are accurate, scalable, and ready for the future. ... RAG System Design & Implementation: Building scalable retrieval pipelines that integrate with structured and unstructured data sources.",
+                            "searchEngineText": "",
+                            "description": "Discover how Retrieval-Augmented Generation (RAG) bridges the gap between AI's static knowledge and real-time data needs, enabling more accurate and up-to-date AI solutions for business.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/Pu3hm0kpvD3aKQhsTKaIN7Z-uFQ9kcme6z_01Vx7BeY/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTVmNGFlZThk/ODg2YTY4YTMxNzUw/ZGI2ZTFjYjY0ZWVm/NmYzZDlhNjhkMmNk/YTNhMzA1ZGM0MDIy/MzhmYTNiYi93d3cu/YXlhZGF0YS5haS8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.linkedin.com/pulse/latest-advancements-rag-every-developer-should-know-pavan-belagatti-jommc",
+                            "title": "Latest Advancements in RAG Every Developer Should Know!",
+                            "preview": "Retrieval Augmented Generation (RAG) is a method that combines the powers of large pre-trained language models with external retrieval or search mechanisms. The idea is to enhance the capability of a generative model by allowing it to pull information from a vast corpus of documents during the generation process. Here's a breakdown of how retrieval augmented generation works: Retrieval step. When presented with a question or prompt, the RAG model first retrieves a set of relevant documents or passages from a large corpus. This is done using a retrieval mechanism, often based on dense vector representations of the documents and the query. Generation step. Once the relevant passages are retrieved, they are fed into a generative model along with the original query. This model then generates a response, leveraging both its pre-trained knowledge and information from the retrieved passages.",
+                            "searchEngineText": "",
+                            "description": "Retrieval Augmented Generation (RAG) is a method that combines the powers of large pre-trained language models with external retrieval or search mechanisms. The idea is to enhance the capability of a generative model by allowing it to pull information from a vast corpus of documents during the gener",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/2S9HjH68MXtvwoAz5zuYZ_WHcBXXZQhWzA8o5QiBPyU/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGE1YzZjOWNj/NmNiODQ4NzI0ODg1/MGY5ZGQ2YzhjZTRm/N2NjOGIzZjc1NTlj/NDM2ZGI5Yjk3ZWI1/YzBmNzJmZS93d3cu/bGlua2VkaW4uY29t/Lw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.glean.com/blog/rag-retrieval-augmented-generation",
+                            "title": "RAG, or Retrieval Augmented Generation: Revolutionizing AI in 2025",
+                            "preview": "Emrecan Dogan | Discover how Retrieval-Augmented Generation(RAG) is set to revolutionize AI in 2024. Explore insights and advancements on the future of artificial intelligence.",
+                            "searchEngineText": "",
+                            "description": "Discover how Retrieval-Augmented Generation(RAG) is set to revolutionize AI in 2024. Explore insights and advancements on the future of artificial intelligence.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/OIYfGV126_pOCC_NQy5VXMVNrt6vVdeY6C8_5hMFOMg/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzgxYmExNTQ3/YTAzMGQyNDU2Y2M0/ZmJjYWEzMjJmMWEz/OTcwYjIyZjQwODQ1/YTQxNWEyODk3OWRm/OTk2NjkxNC93d3cu/Z2xlYW4uY29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.glean.com/blog/rag-revolutionizing-ai-2024",
+                            "title": "RAG, or Retrieval Augmented Generation: Revolutionizing AI in 2024",
+                            "preview": "Emrecan Dogan | Discover how Retrieval-Augmented Generation(RAG) is set to revolutionize AI in 2024. Explore insights and advancements on the future of artificial intelligence.",
+                            "searchEngineText": "",
+                            "description": "Discover how Retrieval-Augmented Generation(RAG) is set to revolutionize AI in 2024. Explore insights and advancements on the future of artificial intelligence.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/OIYfGV126_pOCC_NQy5VXMVNrt6vVdeY6C8_5hMFOMg/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzgxYmExNTQ3/YTAzMGQyNDU2Y2M0/ZmJjYWEzMjJmMWEz/OTcwYjIyZjQwODQ1/YTQxNWEyODk3OWRm/OTk2NjkxNC93d3cu/Z2xlYW4uY29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://hub.athina.ai/top-10-rag-papers-from-january-2025-2/",
+                            "title": "Top 10 RAG Papers from January 2025",
+                            "preview": "Retrieval-Augmented Generation (RAG) is evolving rapidly, becoming more efficient, accurate, and adaptable—and the latest research is setting the stage for its future advancements. We’ve selected 10 of the most relevant papers from a total of 110 RAG papers released in January on Arxiv, that explore innovative RAG frameworks, improved retrieval strategies, security enhancements, and evaluation benchmarks. These works refine how AI integrates external knowledge, ensuring more reliable, context-aware, and scalable generation. From optimizing retrieval mechanisms to refining knowledge grounding and response generation, this research will shape how future RAG models operate. Let’s dive in. This paper talks about GraphRAG, a novel extension of retrieval-augmented generation (RAG) that integrates graph-structured data to enhance knowledge retrieval and generation.",
+                            "searchEngineText": "",
+                            "description": "Explore the latest research on Retrieval-Augmented Generation (RAG), covering advances in retrieval, evaluation, and long-context understanding.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/F_xjpZgJBzWX_DelSQjlNxQ0gctoYHxZK2ZvT_AlL7s/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWY1MGFkYWJj/OGM2MmFjYjdhZDg0/YmJjMjNhZWVhNTIx/NGIxNTM0N2VlODBk/YmQwOGRmZDc3Zjhm/YjZjZTgzNC9odWIu/YXRoaW5hLmFpLw",
+                            "citationId": ""
+                        }
+                    ],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "From the search results, I see several articles and blog posts discussing the latest advancements in RAG technology, particularly focusing on 2025 and beyond. Let me summarize the key points from these results.\n\nFirst, there's an article from RAGFlow titled \"The Rise and Evolution of RAG in 2024 A Year in Review\" published on December 23, 2024. This might provide a good overview of the developments up to 2024, which could lead into what's expected for 2025.\n\nThen, there's \"What Are the Future Trends in RAG for 2025 and Beyond?\" from Chitika, published on January 14, 2025. This seems directly relevant as it specifically talks about future trends.\n\nAnother article from Chitika is \"Retrieval-Augmented Generation (RAG): 2025 Definitive Guide,\" also published on January 14, 2025. This might be a comprehensive guide that includes future advancements.\n\nThere's also \"Latest Developments in Retrieval-Augmented Generation\" from Celerdata, published on November 4, 2024. Although it's from 2024, it might still have insights into recent developments that could influence 2025.\n\n\"The 2025 Guide to Retrieval-Augmented Generation (RAG)\" from Eden AI, published on January 9, 2025, looks promising as it's specifically for 2025.\n\n\"The State of Retrieval-Augmented Generation (RAG) in 2025 and Beyond\" from Aya Data, published on February 10, 2025, is another relevant source.\n\nThere's a LinkedIn post titled \"Latest Advancements in RAG Every Developer Should Know!\" published on March 12, 2024. This might be a bit outdated but could still have useful information.\n\nGlean has two articles: \"RAG, or Retrieval Augmented Generation: Revolutionizing AI in 2025\" published on March 12, 2025, and another from 2024. The 2025 one is more relevant.\n\nFinally, \"Top 10 RAG Papers from January 2025\" from Athina AI, published on February 4, 2025, which lists recent research papers, which could be very informative.\n\nGiven that the user asked for \"deep research deepsearch agent rag etc,\" I think focusing on the most recent and comprehensive sources would be best. Let's start by looking at the Chitika article \"Retrieval-Augmented Generation (RAG): 2025 Definitive Guide\" since it's labeled as a definitive guide for 2025.\n\nI'll use the browse action to get more detailed information from this article.\n\nBrowsing... ",
+                        "- 搜索结果显示多篇文章讨论RAG技术2025年的最新进展。让我总结这些关键点。\n- Chitika的“Retrieval-Augmented Generation (RAG): 2025 Definitive Guide”提供了2025年及以后的趋势，值得深入研究 ([Chitika](https://www.chitika.com/retrieval-augmented-generation-rag-the-definitive-guide-2025/))。\n- Aya Data的文章“The State of Retrieval-Augmented Generation (RAG) in 2025 and Beyond”也提到RAG将变得更复杂和多模态 ([Aya Data](https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/))。\n- 202\n",
+                        "{\"action\": \"browse_page\", \"action_input\": {\"url\": \"https://www.chitika.com/retrieval-augmented-generation-rag-the-definitive-guide-2025/\", \"query\": \"future advancements and trends in RAG technology beyond 2025\"}}",
+                        ""
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary",
+                        "decision",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "From the browse result, I see several key trends and advancements in RAG technology beyond 2025:\n\n1. **Adaptive Intelligence**: RAG systems will become self-improving, using reinforcement learning to refine retrieval strategies based on user interactions. For example, a legal assistant might prioritize case law based on user feedback.\n\n2. **Cross-Disciplinary Integration**: RAG will be combined with causal inference models to analyze cause-effect relationships, which could be crucial in fields like healthcare for identifying treatment outcomes.\n\n3. **Energy Efficiency**: There will be a focus on optimizing algorithms for sustainability, such as using sparse indexing and quantized embeddings, to make large-scale RAG deployments more environmentally friendly.\n\n4. **Multimodal Integration**: RAG systems will process and generate responses across various media types, including text, images, audio, and video, enabling richer applications in education, healthcare, and entertainment.\n\n5. **Federated Learning**: This will allow decentralized RAG systems to learn from diverse datasets while maintaining data privacy, which is particularly important in sectors like finance.\n\n6. **Edge Computing Integration**: Lightweight RAG models will be deployed on edge devices like IoT and mobile devices for real-time insights, such as wearable health monitors providing immediate health data analysis.\n\n7. **Hardware-Aware Optimizations**: Algorithms will be tailored for specific hardware like GPUs and TPUs to reduce energy consumption and improve responsiveness.\n\n8. **Sustainability Focus**: Overall, there will be a strong emphasis on reducing the environmental impact of RAG systems through energy-efficient algorithms and hardware optimizations.\n\nThese trends indicate that RAG is evolving into a more integrated, efficient, and sustainable technology, with applications across various domains.\n\nNow, the user also mentioned \"deep research deepsearch agent rag etc.\" I need to see if there are specific technologies or agents that fit this description.\n\nLet me search for \"deep search agents AI 2025\" to see if there are any specific projects or technologies that match this.\n\nSearching... ",
+                        "- RAG系统将通过强化学习自我改进，基于用户互动优化检索策略。比如，法律助理可根据反馈优先考虑案例法 ([Aporia](https://www.aporia.com/learn/evolution-of-rag-in-generative-ai/?ref=chitika.com))。\n- RAG还将与因果推断模型结合，分析因果关系，这在医疗领域识别治疗效果时非常关键 ([Que Pasa](https://www.quepasa.ai/post/anticipated-trends-and-advancements-in-rag-for-2025?ref=chitika.com))。\n- 联邦学习将让RAG系统从多样化数据集学习，同时保护数据隐私，这在金融领域尤为重要。\n- 轻量级RAG模型将部署在边缘设备上，如IoT和手机，提供实时洞察，比如可穿戴健康监测器分析健康数据。\n",
+                        "{\"action\": \"web_search\", \"action_input\": {\"query\": \"deep search agents AI 2025\"}}",
+                        ""
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary",
+                        "decision",
+                        "raw_function_result"
+                    ],
+                    "webSearchResults": [
+                        {
+                            "url": "https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality",
+                            "title": "AI Agents in 2025: Expectations vs. Reality | IBM",
+                            "preview": "For 2025, the dominant innovation narrative is the AI agent. But what can we realistically expect from agentic AI in 2025, and how will it affect our lives?",
+                            "searchEngineText": "",
+                            "description": "We’d barely surfaced from a landslide of NFT and crypto hype that characterized the early 2020s, and the metaverse bubble that followed, before media voices began singing the praises of generative AI (gen AI) in the wake of releases such as OpenAI’s GPT model family, Anthropic’s Claude and Microsoft’s Copilot. While the chorus hasn’t moved on entirely, the focus in 2025 has shifted from large language models (LLMs) to advancements in the ostensibly autonomous artificial intelligence (AI) agents ushering in the future of work. Despite a momentary surge in gen AI interest around Deepseek’s R1, which promised significant performance improvements over ChatGPT, the dominant innovation narrative in 2025 is the AI agent. Media coverage highlights the promises of innovation, automation and efficiency agents will bring, but how much of the conversation is click-hungry hype?",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/gJo5PPZlmxVqT1Mfxsgvto9n-SflVw3VR1apaQhjjnI/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWI0MWQyYmEy/MTNmNWVkODQ2ODFj/ZjYxMjk4YjI3NmY5/Yjk5M2E0YjhjNWZi/OGUyODMzNzllOTQx/M2I4ZDc2My93d3cu/aWJtLmNvbS8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/",
+                            "title": "OpenAI unveils a new ChatGPT agent for ‘deep research’ | TechCrunch",
+                            "preview": "OpenAI is announcing a new AI “agent” designed to help people conduct in-depth, complex research using ChatGPT, the company’s AI-powered chatbot platform. Appropriately enough, it’s called deep research. OpenAI said in a blog post published Sunday that this new capability was designed for “people who do intensive knowledge work in areas like finance, science, policy, and engineering and need thorough, precise, and reliable research.” It could also be useful, the company added, for anyone making “purchases that typically require careful research, like cars, appliances, and furniture.” · Basically, ChatGPT deep research is intended for instances where you don’t just want a quick answer or summary, but instead need to assiduously consider information from multiple websites and other sources. OpenAI said it’s making deep research available to ChatGPT Pro users today, limited to 100 queries per month, with support for Plus and Team users coming next, followed by Enterprise.",
+                            "searchEngineText": "",
+                            "description": "OpenAI is announcing a new AI \"agent\" designed to help people conduct in-depth, complex research using ChatGPT, the company's AI-powered chatbot platform.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/ksO7ulCblHBP_AfkpIHWWPO5x7Os-PHar40KEb9784M/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZGI5Njk0Yzlk/YWM3ZWMwZjg1MTM1/NmIyMWEyNzBjZDZj/ZDQyNmFlNGU0NDRi/MDgyYjQwOGU0Y2Qy/ZWMwNWQ2ZC90ZWNo/Y3J1bmNoLmNvbS8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.nytimes.com/2025/02/02/technology/openai-deep-research-tool.html",
+                            "title": "OpenAI Unveils New A.I. Agent for Research - The New York Times",
+                            "preview": "While chatbots can answer questions, write poems and generate images, agents like Deep Research can perform tasks using other software and services on the internet.Credit...OpenAI ... Feb. 2, 2025 · A week ago, OpenAI released a tool that can go online to shop for groceries or book a restaurant reservation. Now it is offering A.I. technology that can gather information from across the internet and synthesize it in concise reports. OpenAI unveiled the new tool, called Deep Research, with a demonstration on YouTube on Sunday, days after showing the technology to lawmakers, policymakers and other officials in Washington. “It can do complex research tasks that might take a person anywhere from 30 minutes to 30 days,” Kevin Weil, OpenAI’s chief product officer, said at the event in Washington. By contrast, Deep Research can accomplish such tasks in five to 30 minutes, depending on the complexity.",
+                            "searchEngineText": "",
+                            "description": "While chatbots can answer questions, write poems and generate images, agents like Deep Research can perform tasks using other software and services on the internet.Credit...OpenAI ... Feb. 2, 2025 · A week ago, OpenAI released a tool that can go online to shop for groceries or book a restaurant reservation. Now it is offering A.I. technology that can gather information from across the internet and synthesize it in concise reports. OpenAI unveiled the new tool, called Deep Research, with a demonstration on YouTube on Sunday, days after showing the technology to lawmakers, policymakers and other officials in Washington. “It can do complex research tasks that might take a person anywhere from 30 minutes to 30 days,” Kevin Weil, OpenAI’s chief product officer, said at the event in Washington. By contrast, Deep Research can accomplish such tasks in five to 30 minutes, depending ...",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/xR253Nb8i1AmnxD0XR3MwBWtEY7cTcgMoHLhO9dEm8Q/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMGFlZWRkYmVh/YWFhZmFjYjM4MWYy/NTQzZmExMTIwN2Nm/NGJmZjgwYTRhYjI5/OTliM2JkYmI2MWY0/M2RlOGFlMi93d3cu/bnl0aW1lcy5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.wired.com/story/openais-deep-research-agent-is-coming-for-white-collar-work/",
+                            "title": "OpenAI’s Deep Research Agent Is Coming for White-Collar Work | WIRED",
+                            "preview": "OpenAI’s Deep Research Agent Is Coming for White-Collar Work · More · Search · Security · Politics · Gear · The Big Story · Business · Science · Culture · Ideas · Merch · Podcasts · Video · Newsletters · Magazine · Travel · Steven Levy's Plaintext Column · WIRED Classics from the Archive · Events · WIRED Insider · WIRED Consulting · Coupons · By Will Knight · BusinessMar 19, 2025 12:00 PM · The research-focused agent shows how a new generation of more capable AI models could automate some office tasks. Photo-Illustration: WIRED Staff/Getty Images · Save · Save · Isa Fulford, a researcher at OpenAI, had a hunch that Deep Research would be a hit even before it was released. Fulford had helped build the artificial intelligence agent, which autonomously explores the web, deciding for itself what links to click, what to read, and what to collate into an in-depth report.",
+                            "searchEngineText": "",
+                            "description": "The research-focused agent shows how a new generation of more capable AI models could automate some office tasks.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/GNoiGZDdt9L4M79PLpTT419w51Epn2LPCyD9uDQzZNs/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDQ2YjNlNDVl/NTA3ODNiYjA0NTVk/OWJmYjU2NTk3MGM0/ZDMwOTY3ODI4Zjg2/ZmQ4OGQ3OTZhMDcw/NWIyNWFmYi93d3cu/d2lyZWQuY29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepseek",
+                            "title": "OpenAI launches ‘deep research’ tool that it says can match research analyst | OpenAI | The Guardian",
+                            "preview": "ChatGPT developer announces AI agent amid growing challenge from rivals such as China’s DeepSeek · Dan Milmo Global technology editor · Mon 3 Feb 2025 08.26 ESTLast modified on Mon 3 Feb 2025 09.57 EST · Share · OpenAI has stepped up its development of artificial intelligence agents by announcing a new tool that crafts reports which it claims can match the output of a research analyst. The ChatGPT developer said the new tool, “deep research”, “accomplishes in 10 minutes what would take a human many hours”. The announcement comes just a couple of days after the San Francisco-based company said it would speed up product releases in response to advances made by OpenAI’s Chinese rival DeepSeek. “Deep research” is an AI agent – the term for a system that can carry out tasks on users’ behalf – and is powered by a version of OpenAI’s latest cutting-edge model, o3.",
+                            "searchEngineText": "",
+                            "description": "ChatGPT developer announces AI agent amid growing challenge from rivals such as China’s DeepSeek",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/PV9A_vXdPNG1tLs7pZO1A0JOjcCvraOKtoLBW4egC8I/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGRmYTNkMTZl/NmJhYTQwYmQ4NDRj/MzQ4NDZkNGQ0YTgy/ZWRlZDM4YWVkMzM4/NmM0Y2Y2NTgyMTQ5/NzQxOTExYy93d3cu/dGhlZ3VhcmRpYW4u/Y29tLw",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://arstechnica.com/ai/2025/02/after-24-hour-hackathon-hugging-faces-ai-research-agent-nearly-matches-openais-solution/",
+                            "title": "Hugging Face clones OpenAI’s Deep Research in 24 hours - Ars Technica",
+                            "preview": "Search dialog... Sign In · Sign in dialog... Sign in · Agents everywhere · Open source \"Deep Research\" project proves that agent frameworks boost AI model capability. Benj Edwards – Feb 5, 2025 3:55 pm | 43 · Credit: 3alexd via Getty Images · Credit: 3alexd via Getty Images · Text settings · Story text · Size · Small · Standard · Large Width * Standard · Wide Links · Standard · Orange · * Subscribers only Learn more Minimize to nav · On Tuesday, Hugging Face researchers released an open source AI research agent called \"Open Deep Research,\" created by an in-house team as a challenge 24 hours after the launch of OpenAI's Deep Research feature, which can autonomously browse the web and create research reports. The project seeks to match Deep Research's performance while making the technology freely available to developers. \"While powerful LLMs are now freely available in open-source, OpenAI didn’t disclose much about the agentic framework underlying Deep Research,\" writes Hugging Face on its announcement page.",
+                            "searchEngineText": "",
+                            "description": "Open source “Deep Research” project proves that agent frameworks boost AI model capability.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/e9bY1EYFgjDbzuYF9Y97Is9OIWGnrZc2Z-p2BrTVvVw/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOGJlOTQ4ZDZm/Zjg3MWQwY2NmYjI0/NzRmM2U0MTAzODQx/ZGU3YTFmMDljOGNj/ZmZkNTdlNDRhMjZm/ZGM4NDk3Ni9hcnN0/ZWNobmljYS5jb20v",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://searchengineland.com/search-ai-mode-deep-research-453744",
+                            "title": "The next wave of search: AI Mode, deep research and beyond",
+                            "preview": "Search Engine Land » SEO » The next wave of search: AI Mode, deep research and beyond · Constance Chen on March 31, 2025 at 9:00 am | Reading time: 7 minutes ... Please note that your conversations will be recorded. I am trained with Search Engine Land content. Ask me anything! SearchBot is thinking ... ... With the rise of AI-powered features, search engines are not just directing users to information but delivering answers directly.  · This shift is redefining how people interact with the web, raising questions about the future of SEO, content discovery, and digital marketing.  · Here’s what’s coming next. The world has seen rapid and significant advances in AI technology and large language models (LLMs) within two years.  · Looking back just three years ago, Google’s Gemini and Meta’s LLAMA did not exist, and OpenAI’s ChatGPT was later released in late November 2022.",
+                            "searchEngineText": "",
+                            "description": "Discover how deep research and agentic AI models are transforming search and the way users find information.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/zbcZLJvy5GpYHvrycy1GVRLD3HzXvaA9T3sSOPA4f9o/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDI2ZDllMmRh/MDc5YWJmNDVlYzhi/MzM4NTQwYmM5NDBj/OWNlYTBlNzQ5ZTRj/Yzc2YjY4NjU3MTll/YzAyMzkyNi9zZWFy/Y2hlbmdpbmVsYW5k/LmNvbS8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://www.bloomberg.com/news/articles/2025-02-03/openai-releases-ai-agent-aimed-at-speeding-up-online-research",
+                            "title": "OpenAI Releases AI Agent Aimed at Speeding Up Online Research - Bloomberg",
+                            "preview": "The feature, called Deep Research, is designed to speed up tasks that would take a person “many hours.” · OpenAI CEO Sam Altman has previously said agents will be “the next giant breakthrough” for AI. Photographer: Yuichi Yamazaki/AFP/Getty Images · Gift this article · How easy or hard was it to use Bloomberg.com today? Share feedback · Have a confidential tip for our reporters? Get in Touch · Before it’s here, it’s on the Bloomberg Terminal · LEARN MORE · By Rachel Metz · February 2, 2025 at 7:00 PM EST · Save · OpenAI is releasing a new artificial intelligence tool that’s designed to carry out time-consuming online research for users about everything from complex science questions to car recommendations — expanding the startup’s portfolio of AI agents that act on a person’s behalf. The service, called Deep Research, will be available to certain paying customers through OpenAI’s ChatGPT chatbot online, the company said in a blog post on Sunday.",
+                            "searchEngineText": "",
+                            "description": "The feature, called Deep Research, is designed to speed up tasks that would take a person “many hours.”",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/V8IMZuZFop5gKYYb9vkAVSCK0hsnjRiGXNSajyOHs6U/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNDJhNjMyMGE1/YzY3MzRjMDAzZDU5/YzJiMWZlZmI4Yjkx/OWQyN2IzYzU1MjYw/ZDQyMjVjYzdjZWRi/ZTM5Njg4ZC93d3cu/Ymxvb21iZXJnLmNv/bS8",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://sambanova.ai/blog/open-source-deep-research-agents",
+                            "title": "Open-Source Deep Research Agents: Enterprise-Grade Speed, Security & Saving them Millions",
+                            "preview": "Contributions to the project are highly encouraged to make this the best Open Source Deep Research tool on the planet. Code your genius, “Bring Your Own Agent” AI (BYOAI) style! Deploy your SambaNova-powered agent, share your breakthroughs online (tag us on social), and let your AI agents shine. Stay tuned for some upcoming contests and prizes for the best contributions to the project! We are excited to see more enterprises adopt open source and build fast, affordable agents that deliver value for their customers and employees. ... Copyright © 2025 SambaNova Systems, Inc. All rights reserved ... Customers turn to SambaNova to quickly deploy state-of-the-art AI capabilities to meet the demands of the AI-enabled world. Our purpose-built enterprise-scale AI platform is the technology backbone for the next generation of AI computing. We enable customers to unlock the valuable business insights trapped in their data.",
+                            "searchEngineText": "",
+                            "description": "Agents have emerged as a major trend for AI in 2025. Specifically, Deep Research agents are one of the most notable examples that we have seen released from companies such as Google, OpenAI, Perplexity, X.AI, and just recently Manus. All these agents allow users to generate detailed reports on any topic of their choosing as long as the data is publicly accessible. However, there are three major critical barriers that enterprises face using these tools today:  · Security: A large percentage of enterprise data must remain private on-premise and thus inaccessible to existing Deep Research tools. Speed: Deep Research tools today are often very slow and cannot be used for quick iteration and urgent use cases. Cost: Because deep research agents consume many more tokens, the costs for running these systems is increasing exponentially, especially with OpenAI.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/BKW8nYBLsuUIpjmVYmsuWin6TXYyUNtLUCar4ZBlIro/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjNjYWMwYWM0/NjliNjdiZWUzMjI3/ODUxZWM0ZDQ5NjVh/N2E2MWNlNTc4Yzgz/ZTQxZTM3NTM4ZGJj/YTcwYmRlZC9zYW1i/YW5vdmEuYWkv",
+                            "citationId": ""
+                        },
+                        {
+                            "url": "https://techcrunch.com/2025/03/25/microsoft-adds-ai-powered-deep-research-tools-to-copilot/",
+                            "title": "Microsoft adds AI-powered deep research tools to Copilot | TechCrunch",
+                            "preview": "Site Search Toggle · Mega Menu Toggle · Latest · AI · Amazon · Apps · Biotech & Health · Climate · Cloud Computing · Commerce · Crypto · Enterprise · EVs · Fintech · Fundraising · Gadgets · Gaming · Google · Government & Policy · Hardware · Instagram · Layoffs · Media & Entertainment · Meta · Microsoft · Privacy · Robotics · Security · Social · Space · Startups · TikTok · Transportation · Venture · Events · Startup Battlefield · StrictlyVC · Newsletters · Podcasts · Videos · Partner Content · TechCrunch Brand Studio · Crunchboard · Contact Us · Sign In · Image Credits:Rafael Henrique/SOPA Images/LightRocket / Getty Images · AI · Kyle Wiggers · 7:45 PM PDT · March 25, 2025 · Microsoft is introducing a “deep research” AI-powered tool in Microsoft 365 Copilot, its AI chatbot app. There’s been a raft of deep research agents launched recently across chatbots, including OpenAI’s ChatGPT, Google’s Gemini, and xAI’s Grok.",
+                            "searchEngineText": "",
+                            "description": "Microsoft is introducing a \"deep research\" AI-powered tool in Microsoft 365 Copilot to compete with similar tools from OpenAI and Google.",
+                            "siteName": "",
+                            "metadataTitle": "",
+                            "creator": "",
+                            "image": "",
+                            "favicon": "https://imgs.search.brave.com/ksO7ulCblHBP_AfkpIHWWPO5x7Os-PHar40KEb9784M/rs:fit:64:0:0:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZGI5Njk0Yzlk/YWM3ZWMwZjg1MTM1/NmIyMWEyNzBjZDZj/ZDQyNmFlNGU0NDRi/MDgyYjQwOGU0Y2Qy/ZWMwNWQ2ZC90ZWNo/Y3J1bmNoLmNvbS8",
+                            "citationId": ""
+                        }
+                    ],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "From this search, I see several articles about AI agents, particularly focusing on OpenAI's Deep Research agent, which seems to be a direct match for what the user is asking about.\n\nLet me summarize the key points:\n\n1. **OpenAI Unveils New ChatGPT Agent for ‘Deep Research’**: Published on February 2, 2025, by TechCrunch. This article announces OpenAI's new AI agent called \"deep research\" designed for conducting in-depth, complex research using ChatGPT. It's aimed at users who need thorough, precise, and reliable research, such as in finance, science, policy, and engineering.\n\n2. **OpenAI’s Deep Research Agent Is Coming for White-Collar Work**: From WIRED, published on March 19, 2025. This article discusses how the Deep Research agent could automate some office tasks, indicating its potential impact on white-collar work.\n\n3. **OpenAI launches ‘deep research’ tool that it says can match research analyst**: From The Guardian, published on February 3, 2025. This article mentions that OpenAI claims the deep research tool can accomplish in 10 minutes what would take a human many hours, positioning it as a competitor to research analysts.\n\n4. **Hugging Face clones OpenAI’s Deep Research in 24 hours**: From Ars Technica, published on February 5, 2025. This highlights the rapid development in the field, as Hugging Face created an open-source version of a similar tool just 24 hours after OpenAI's announcement.\n\n5. **The next wave of search: AI Mode, deep research and beyond**: From Search Engine Land, published on March 31, 2025. This article discusses how deep research and agentic AI models are transforming search and information retrieval.\n\n6. **OpenAI Releases AI Agent Aimed at Speeding Up Online Research**: From Bloomberg, published on February 2, 2025. This article notes that the Deep Research feature is designed to speed up tasks that would take a person many hours, and it's part of OpenAI's expansion into AI agents.\n\n7. **Open-Source Deep Research Agents: Enterprise-Grade Speed, Security & Saving them Millions**: From SambaNova Systems, published on March 10, 2025. This article talks about the importance of open-source deep research agents for enterprises, focusing on speed, security, and cost-effectiveness.\n\n8. **Microsoft adds AI-powered deep research tools to Copilot**: From TechCrunch, published on March 25, 2025. This indicates that Microsoft is also entering the field with similar tools in their Copilot AI chatbot.\n\nFrom these articles, it's clear that \"deep research\" agents, particularly OpenAI's Deep Research, are a significant development in 2025. These agents are designed to perform complex research tasks autonomously, gathering information from the web and synthesizing it into detailed reports.\n\nGiven that the user asked for \"deep research deepsearch agent rag etc,\" I think the Deep Research agent from OpenAI is exactly what they are referring to, as it combines the capabilities of retrieval (search) with generation (AI agent) to perform deep research tasks.\n\nTo provide a more comprehensive answer, I should also look into how these deep research agents relate to RAG technology, as the user mentioned both in their question.\n\nLet me browse the TechCrunch article about OpenAI's Deep Research to get more details.\n\nBrowsing... ",
+                        "- OpenAI的“深度研究”代理于2025年2月2日推出，专为深入复杂研究设计，适合金融和工程领域 ([TechCrunch](https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/))。\n",
+                        "{\"action\": \"browse_page\", \"action_input\": {\"url\": \"https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/\", \"query\": \"how deep research agent works and its relation to RAG\"}}"
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary",
+                        "decision"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "From this browse result, I see that OpenAI's Deep Research agent is designed to conduct in-depth research by autonomously browsing the web, gathering information, and synthesizing it into reports. While the term \"RAG\" (Retrieval-Augmented Generation) is not explicitly mentioned, the functionality described is very much in line with RAG principles, as it involves retrieving relevant information and then generating a response based on that information.\n\nThe agent uses a special version of OpenAI's o3 \"reasoning\" AI model, which is trained via reinforcement learning on real-world tasks, including browser and Python tool use. This indicates that it's not just a simple retrieval system but one that can reason and make decisions about what information to retrieve and how to use it.\n\nThe agent's outputs are currently text-only but are planned to include embedded images, data visualizations, and analytic outputs. It also plans to connect to specialized data sources, which could further enhance its retrieval capabilities.\n\nIn terms of accuracy, it was tested on Humanity’s Last Exam, achieving 26.6% accuracy, which is higher than other models like Gemini Thinking, Grok-2, and GPT-4o. However, it is still prone to hallucinations and errors, so its outputs are fully documented with citations and a summary of its thinking process for verification.\n\nThis aligns with the trends I saw earlier in the RAG advancements, particularly in adaptive intelligence and cross-disciplinary integration, as the agent is designed to handle complex, multi-step research tasks that might involve various domains.\n\nNow, to tie this back to the user's question, it seems that \"deep research\" agents like OpenAI's Deep Research are indeed a significant development in the field of RAG and related technologies. These agents represent the next step in making AI more autonomous and capable of performing complex tasks that require both retrieval and generation.\n\nAdditionally, the fact that Hugging Face was able to clone a similar open-source version in just 24 hours indicates that this technology is rapidly evolving and becoming more accessible.\n\nMicrosoft's addition of similar tools to Copilot also shows that this is a competitive area with multiple players.\n\nSo, in summary, the latest advancements in RAG technology for 2025 and beyond include:\n\n- **Adaptive Intelligence**: Self-improving systems that learn from user interactions.\n\n- **Multimodal Integration**: Handling text, images, audio, and video.\n\n- **Federated Learning**: Decentralized learning while preserving privacy.\n\n- **Edge Computing**: Deploying on IoT and mobile devices for real-time insights.\n\n- **Sustainability**: Focus on energy-efficient algorithms and hardware.\n\n- **Deep Research Agents**: Autonomous agents like OpenAI's Deep Research that can perform complex research tasks by retrieving and synthesizing information from the web.\n\nThese developments are positioning RAG as a cornerstone for next-generation AI, transforming how information is accessed and utilized across various industries.\n\nNow, to provide a final answer, I should consolidate this information into a concise response, including citations where possible.\n\nLet me make sure I have enough information. I think I do, but perhaps I should check one more source to see if there are any other significant developments or if I've missed something.\n\nLet me look at the Aya Data article \"The State of Retrieval-Augmented Generation (RAG) in 2025 and Beyond\" to see if it mentions anything about deep research agents or similar technologies.\n\nBrowsing... ",
+                        "- OpenAI的深度研究代理通过网络浏览和信息合成进行深入研究，虽然未明确提RAG，但功能符合RAG原理，涉及信息检索和生成 ([TechCrunch](https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/))。\n- 代理使用OpenAI的o3“推理”AI模型，训练于真实任务如浏览器和Python工具使用，显示其不仅是简单检索系统，还能推理决策。\n- 深度研究代理在“人类最后考试”中测试，准确率26.6%，高于Gemini Thinking、Grok-2和GPT-4o ([Humanity’s Last Exam](https://lastexam.ai/))。\n- 尽管如此，它仍易于产生幻觉和错误，输出附有引文和思维总结，便于验证。\n",
+                        "{\"action\": \"browse_page\", \"action_input\": {\"url\": \"https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/\", \"query\": \"deep research agents and their relation to RAG\"}}"
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary",
+                        "decision"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "From this browse result, I see that while deep research agents are not explicitly mentioned, their relation to RAG is clear. RAG is described as a technology that retrieves relevant external information before generating responses, which is exactly what a deep research agent does—retrieve information from the web and synthesize it into a response.\n\nThe article mentions that RAG was introduced in 2020 and by 2023, it was being adopted in enterprise AI for accuracy and real-time updates. It also lists various industries where RAG is making an impact, such as healthcare, finance, eCommerce, and enterprise AI, which aligns with the applications mentioned for deep research agents.\n\nThe future of RAG beyond 2025 includes multimodal retrieval, real-time knowledge graphs, and hybrid AI architectures, which could further enhance the capabilities of deep research agents.\n\nAya Data offers services related to RAG, including system design, knowledge base structuring, vector database integration, and custom AI integration, which could be relevant for implementing such agents.\n\nSo, in essence, deep research agents can be seen as an advanced application or extension of RAG technology, where the retrieval and generation are more autonomous and capable of handling complex, multi-step research tasks.\n\nNow, I think I have enough information to provide a comprehensive answer to the user's question.\n\nLet me summarize:\n\n- RAG (Retrieval-Augmented Generation) is evolving with trends like adaptive intelligence, multimodal integration, federated learning, edge computing, and sustainability.\n\n- Deep research agents, such as OpenAI's Deep Research, represent a significant advancement in RAG technology, allowing for autonomous, in-depth research by retrieving and synthesizing information from the web.\n\n- These agents are designed for complex tasks that require thorough research, such as in finance, science, policy, and engineering.\n\n- The technology is rapidly developing, with open-source alternatives and competitors like Microsoft entering the field.\n\n- Future advancements in RAG will further enhance these capabilities, making AI more versatile and integrated across various domains.\n\nNow, I need to present this in a final answer format, including citations where possible.### Final Answer\n\nRetrieval-Augmented Generation (RAG) is indeed far from obsolete; it is just beginning to reach its full potential in 2025 and beyond. Recent advancements and emerging technologies, such as deep research agents, are driving RAG into new frontiers of capability and application. Below is a detailed overview of the latest developments and future trends in RAG and related technologies like deep search agents:\n\n#### **Latest Advancements in RAG Technology (2025)**\n- **Adaptive Intelligence**: RAG systems are becoming self-improving, using reinforcement learning to refine retrieval strategies based on user interactions. For example, a legal assistant might prioritize case law based on user feedback.\n- **Multimodal Integration**: RAG is evolving to process and generate responses across diverse media types, including text, images, audio, and video. This enables richer applications in fields like education, healthcare, and entertainment.\n- **Federated Learning**: Decentralized RAG systems are being developed to learn from diverse datasets while preserving data privacy, which is crucial for industries like finance.\n- **Edge Computing Integration**: Lightweight RAG models are being deployed on edge devices (e.g., IoT, mobile) for real-time insights, such as wearable health monitors providing immediate health data analysis.\n- **Sustainability**: There is a growing focus on energy-efficient algorithms and hardware optimizations to reduce the environmental impact of large-scale RAG deployments.\n- **Cross-Disciplinary Integration**: RAG is being combined with causal inference models to analyze cause-effect relationships, which is particularly valuable in healthcare for identifying treatment outcomes.\n\nThese advancements position RAG as a cornerstone for next-generation AI, transforming how information is accessed and utilized across industries.\n\n#### **Deep Research Agents and Their Relation to RAG**\nDeep research agents, such as OpenAI's Deep Research, represent a significant leap forward in RAG technology. These agents autonomously perform complex research tasks by retrieving information from the web and synthesizing it into detailed reports. While the term \"RAG\" is not always explicitly",
+                        "- 深度研究代理与RAG关系明确，RAG通过检索外部信息生成响应，这与代理功能一致。RAG在2020年引入，2023年企业AI广泛采用，应用领域如医疗、金融等与代理类似 ([Aya Data](https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/))。\n- RAG未来趋势包括多模态检索、实时知识图谱和混合AI架构，可能进一步提升深度研究代理能力。\n"
+                    ],
+                    "tags": [
+                        "assistant",
+                        "summary"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "整合信息",
+                        "- 深度研究代理是RAG技术的先进应用，能自主处理复杂多步研究任务，如金融和科学领域。RAG的演进如多模态整合和边缘计算将增强代理功能。\n- 技术发展迅速，微软等竞争者加入，未来AI将更灵活，跨领域整合。让我整理这些，准备最终回答。\n",
+                        " mentioned, the functionality of deep research agents aligns closely with RAG principles—retrieving relevant external information and generating responses based on that information.\n\n- **OpenAI's Deep Research Agent**:\n  - Launched in February 2025, this agent is designed for users who need thorough, precise, and reliable research, such as in finance, science, policy, and engineering.\n  - It uses a specialized version of OpenAI's o3 \"reasoning\" AI model, trained via reinforcement learning on real-world tasks like web browsing and data analysis.\n  - The agent can accomplish tasks in 5-30 minutes that might take a human many hours, with outputs fully documented for verification.\n  - It is currently available to ChatGPT Pro users, with plans to expand to other tiers and integrate with mobile/desktop apps.\n\n- **Relation to RAG**:\n  - Deep Research agents extend RAG by adding autonomy and reasoning capabilities. They not only retrieve information but also make decisions about what to retrieve and how to use it, aligning with RAG's core principles.\n  - Future enhancements"
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                },
+                {
+                    "text": [
+                        "研究RAG最新进展",
+                        "- RAG系统正变得更智能，能处理文本、图像和视频等多模态数据。这在教育和娱乐领域很有潜力。\n- 可持续性成为关注点，研发节能算法减少环境影响。让我看看这如何影响深度研究代理。\n- OpenAI的深度研究代理2025年2月推出，专为需要深入研究的用户设计，如金融和工程领域。它用o3“推理”AI模型训练，能在5-30分钟内完成人类数小时任务，输出有文档可验证。\n- 目前仅ChatGPT Pro用户可用，计划扩展到其他层级，并整合到移动和桌面应用。这显示RAG技术在实际应用中的扩展性。\n",
+                        " include connecting to specialized data sources and generating outputs with embedded images and data visualizations, further expanding RAG's multimodal potential.\n\n- **Competitive Landscape**:\n  - Hugging Face developed an open-source version of a deep research agent just 24 hours after OpenAI's announcement, highlighting the rapid pace of innovation.\n  - Microsoft has also introduced AI-powered deep research tools in its Copilot AI chatbot, indicating growing competition in this space.\n\n#### **Future Trends Beyond 2025**\n- **Multimodal RAG Systems**: Seamless processing of text, images, audio, and video for more interactive applications.\n- **Self-Improving RAG**: Systems that refine retrieval and generation strategies based on real-time user feedback.\n- **Decentralized RAG with Federated Learning**: Secure, privacy-preserving systems operating across multiple devices.\n- **Energy-Efficient RAG**: Focus on sustainable algorithms and hardware for large-scale deployments.\n- **Integration with Edge Devices**: Enabling real-time insights on IoT and mobile platforms.\n- **Hybrid AI Architectures**: Combining RAG with other AI techniques like reasoning and reinforcement learning for more advanced capabilities.\n\n#### **Conclusion**\nRAG is not only alive but thriving, with deep research agents like OpenAI's Deep Research exemplifying its potential. These agents represent an advanced application of RAG, combining autonomous retrieval and generation to handle complex research tasks. As RAG continues to evolve with adaptive intelligence, multimodal integration, and sustainability, it will remain a pivotal technology for industries requiring accurate, real-time information.\n\n**Citations**:\n- [Chitika - Retrieval-Augmented Generation (RAG): 2025 Definitive Guide](https://www.chitika.com/retrieval-augmented-generation-rag-the-definitive-guide-2025/)\n- [TechCrunch - OpenAI unveils a new ChatGPT agent for ‘deep research’](https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/)\n- [Aya Data - The State of Retrieval-Augmented Generation (RAG) in 2025 and Beyond](https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/) \n\nThese sources provide comprehensive insights into the current state and future of RAG and deep research agents, ensuring the information is both reliable and up-to-date.",
+                        ""
+                    ],
+                    "tags": [
+                        "header",
+                        "summary",
+                        "assistant",
+                        "softstop"
+                    ],
+                    "webSearchResults": [],
+                    "xpostIds": [],
+                    "xposts": []
+                }
+            ],
+            "imageEditUris": [],
+            "mediaTypes": [],
+            "webpageUrls": [],
+            "metadata": {
+                "deepsearchPreset": "default"
+            }
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 16066,
+            "questionId": 0,
+            "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+            "roleType": "user",
+            "contentType": "text",
+            "content": "对2025 英伟达（NVIDIA) GTC 大会进行详细分析总结，包括但不限于最新产品、技术突破、增长空间、未来展望等\n",
+            "others": {},
+            "createTime": "2025-03-21 16:29:54",
+            "answers": [
+                {
+                    "id": 16068,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "system",
+                    "contentType": "thinking",
+                    "content": "好的，我现在需要帮用户改写关于2025年英伟达GTC大会的查询条件。首先，用户的要求是详细分析总结，包括最新产品、技术突破、增长空间和未来展望等。我要确保改写后的查询有唯一性，不能和其他类似，还要选出三条最有用的。\n\n首先，用户提供的原查询是直接针对2025年GTC大会的详细分析，所以第一条改写应该直接提取关键信息，保持核心要素。比如，“2025 NVIDIA GTC大会核心发布内容总结：Blackwell架构进展、生成式AI芯片性能提升、机器人技术突破及未来三年战略规划”。这样既涵盖了产品、技术，也提到了未来规划，符合用户的主要需求。\n\n接下来，第二个查询需要更具体的时间范围，因为今天是2025年3月21日，GTC通常在3月举行，所以可以强调2025年3月的大会，并且对比2024年的技术进展。例如，“对比分析2025年3月NVIDIA GTC大会与2024年大会的技术差异：数据中心GPU能效提升、Omniverse平台新功能、自动驾驶芯片迭代方向及AI算力市场预测”。这样突出了时间上的近期性，同时通过对比展示技术发展，帮助用户获取更动态的数据。\n\n第三个查询可能需要关注行业影响和产业链，比如供应链和市场反应。例如，“2025 NVIDIA GTC大会对AI产业链影响：H200/H300芯片供应链变化、CUDA 12生态应用案例、全球AI算力需求增长模型及合作伙伴关系更新”。这里涉及到供应链、生态应用和市场需求，这些都是用户可能关心的增长空间和未来展望的一部分。\n\n评估标准方面，要确保信息准确，技术参数详细，数据来源权威，并且覆盖产品、技术和战略。这样用户得到的资料既全面又可靠。需要避免重复的查询，比如不要只重复同样的关键词，而是通过不同的角度切入，如技术对比、产业链影响等，确保每条查询都有独特的角度。同时，确保所有改写都围绕用户原问题的主题，不偏离事实，优先最近的会议信息，这样搜索结果会更相关有效。\n",
+                    "others": {
+                        "id": "run-f8cb95ca-e00f-454b-86e2-e2cb7ac48a81",
+                        "title": "思考搜索条件"
+                    },
+                    "createTime": "2025-03-21 16:30:40",
+                    "answers": null
+                },
+                {
+                    "id": 16074,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "system",
+                    "contentType": "thinking",
+                    "content": "好的，我需要帮用户生成一份关于2025年英伟达GTC大会的分析总结报告大纲。首先，用户提到报告类型需要判断，结合用户提供的资料，这些资料主要涉及产品发布、技术突破、供应链影响、未来技术路线等，看起来像是一份行业分析报告，特别是科技行业的趋势分析。因此，报告类型应该是行业分析报告，可能结合技术趋势和供应链影响分析。\n\n接下来，用户需要结构清晰的大纲，分成几个主要部分，每个部分再细分。根据提供的资料，关键点包括：最新产品（如Blackwell Ultra、Vera Rubin）、技术突破（如液冷散热、CPO技术）、供应链影响（台积电、SK海力士等）、增长空间（数据中心、AI应用）、未来展望（量子计算、机器人技术）。此外，用户强调要覆盖多个维度，确保连贯性和完整性，字数约10000字，合理分配各部分字数。\n\n首先，确定一级标题。常见的行业报告结构通常包括引言、市场背景、产品分析、技术进展、供应链影响、增长机会、未来展望等。但用户希望避免附录，所以需要整合这些内容。结合用户资料中的重点，可以设定如下一级标题：\n\n1. 大会核心亮点与行业影响\n2. 新一代GPU架构与产品矩阵\n3. 关键技术创新与产业链协同\n4. 算力基础设施的演进趋势\n5. 生态布局与行业应用深化\n6. 未来技术路线与战略挑战\n\n然后，每个一级标题下的二级标题需要细化。例如，第一部分“大会核心亮点与行业影响”可以包括黄仁勋演讲要点、Blackwell Ultra发布、量子计算战略调整等。第二部分产品分析需要详细产品参数和供应链变化。技术部分涵盖散热、CPO、HBM等。基础设施部分讨论电源、液冷、网络架构。生态部分涉及机器人、自动驾驶、中国市场的合作。未来部分则包括Rubin平台路线图、量子计算和挑战。\n\n接下来检查是否有遗漏。用户提供的资料提到了人形机器人、量子计算、中国市场专场、液冷技术、HBM内存、网络升级等，需要确保这些都被覆盖。另外，用户提到增长空间和未来展望，因此需要单独章节讨论市场机会和技术挑战。\n\n最后，字数分配。总字数约10000字，每个一级标题大约1500-1700字，二级标题根据内容分配，如产品和技术部分可能需要更多字数，而引言部分可以稍短。确保各部分平衡，重点突出技术细节和供应链影响。\n\n现在需要验证结构是否连贯，是否覆盖所有用户提供的资料内容，确保没有重复或遗漏。例如，Blackwell Ultra的供应链影响在技术部分和供应链部分都可能涉及，需要合理分配。同时，未来展望部分需要整合量子计算和机器人技术，避免分散。\n\n总结，大纲应围绕产品发布、技术突破、供应链协同、基础设施升级、应用场景扩展和未来战略展开，确保逻辑清晰，覆盖用户提供的所有关键点。\n",
+                    "others": {
+                        "id": "run-27064527-6d0d-43dc-b594-9f58c8472e20",
+                        "title": "思考研究框架"
+                    },
+                    "createTime": "2025-03-21 16:31:43",
+                    "answers": null
+                },
+                {
+                    "id": 16080,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "system",
+                    "contentType": "thinking",
+                    "content": "嗯，用户需要收集关于2025年英伟达GTC大会的数据，用来写一份详细的分析总结文稿。他们提供了一个结构化的目录，包含六个一级子主题，每个下面有四个二级子主题。用户的问题是如何高效使用搜索引擎来收集这些数据，并且需要每个一级子主题有三个维度的独立搜索条件。\n\n首先，我需要理解每个一级子主题的核心内容。例如，第一个一级子主题是“大会核心亮点与行业定位”，下面有四个二级主题，比如黄仁勋的主题演讲、Blackwell Ultra的量产进程、量子计算战略调整和中国AI专场。我需要为每个一级主题生成三个不同的搜索条件，覆盖不同的维度，同时确保这些条件相互独立，不重复。\n\n考虑到时间因素，现在是2025年3月21日，用户需要近期的数据，所以搜索条件中需要包含时间范围，比如2025年或者最近的日期。此外，要确保每个搜索条件针对不同的方面，例如技术分析、供应链影响、产业信号等，避免重复。\n\n接下来，我需要为每个一级主题拆解可能的搜索维度。以第一个主题为例，可能包括主题演讲的技术风向标意义、量产进程的供应链影响、量子计算的战略调整、以及中国市场的本地化实践。每个二级主题对应不同的关键词，需要组合这些关键词和时间限定词，形成有效的搜索条件。\n\n同时，要确保每个搜索条件唯一且不重叠。例如，使用不同的角度，如技术分析、供应链影响、产业合作等，来覆盖不同的信息源。比如，第一个搜索条件可能聚焦在黄仁勋演讲的技术影响，第二个可能涉及供应链的具体变化，第三个可能探讨量子计算与其他公司的合作。\n\n对于技术性较强的主题，如新一代GPU架构，可能需要关注性能参数、技术前瞻性、内存技术突破等。每个搜索条件需要具体到某个技术点，并结合时间限定，确保结果的相关性和时效性。\n\n在处理算力基础设施这类主题时，液冷散热、光互连技术、供电体系创新等是重点。需要分别针对这些技术的最新进展、商业化路径和创新方案进行搜索，每个条件对应不同的技术细节，避免交叉。\n\n产业链协同方面，涉及供应商的工艺进展、HBM供应链的变化、ODM厂商的技术升级等。搜索条件需要包含具体的公司名称和技术术语，以获取具体的合作动态和市场格局变化。\n\n新兴应用场景部分，如人形机器人、自动驾驶平台、数字孪生和AI药物研发，需要针对每个应用领域的最新进展，结合英伟达的平台更新来构建搜索条件，确保覆盖技术突破和应用案例。\n\n最后，未来技术路线部分，需要考虑架构设计、量子计算瓶颈、数据中心挑战和地缘政治影响。每个搜索条件需针对不同的技术或外部因素，分析其影响和解决方案。\n\n总结来说，每个一级主题的三个搜索条件需要从不同的角度切入，结合具体的技术术语、公司名称和时间限定，确保信息全面且独立。同时，使用精确的关键词组合，提高搜索效率，帮助用户快速收集到所需数据。\n",
+                    "others": {
+                        "id": "run-e188cff7-b04e-4b54-af8d-488c135a45ac",
+                        "title": "确定研究边界"
+                    },
+                    "createTime": "2025-03-21 16:32:45",
+                    "answers": null
+                },
+                {
+                    "id": 16114,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "system",
+                    "contentType": "text",
+                    "content": "# 2025年英伟达GTC大会深度解析：技术革新与产业生态重构\n\n## 一、大会核心亮点与行业定位\n\n黄仁勋在2025年的主题演讲中，强调了AI技术风向标的深远意义。Blackwell Ultra的量产进程已经开始，这标志着AI行业的进一步发展，并对供应链产生重大影响。量子计算战略调整成为产业信号的重要组成部分，显示了英伟达对这一领域的谨慎态度和长远规划。此外，中国AI专场的技术本土化实践也成为了本次大会的一个重要议题，突显了中国市场的重要性[^2]。\n\n![pic_title](1_3)  \n从地理分布来看，英伟达的收入主要来源于数据中心业务，占比高达53%[^2]。这一数据反映了数据中心在全球范围内的快速发展以及对高性能计算的需求不断增长。\n\n## 二、新一代GPU架构突破与产品矩阵\n\nBlackwell Ultra作为英伟达最新的GPU架构，在性能参数和系统设计上实现了显著的创新。其功耗达到了惊人的1400W，而HBM3e显存容量高达288GB，这些数字都代表了英伟达在追求极致性能上的努力[^4]。同时，HBM4内存堆叠技术的迭代突破也为未来的GPU设计提供了新的可能性。NVL144/NVL288机架密度革命更是将数据中心的集成度提升到了一个新的高度[^43]。\n\n![pic_title](1_1)  \n通过对比不同GPU架构的功耗可以看出，Blackwell Ultra的功耗为1400瓦特，远高于Hopper架构的700瓦特和A100的400瓦特[^4][^37][^48]。这种功耗的增加直接对应了更高的性能输出，满足了日益增长的计算需求。\n\n## 三、算力基础设施的技术重构\n\n液冷散热系统的二次革命是算力基础设施升级的重要标志。无论是冷板还是浸没式散热技术，都在不断提升效率以应对高算力带来的热管理挑战。CPO光互连技术的商业化路径也在逐步明确，为未来数据中心内部的数据传输提供了更高效的方式[^8]。此外，400V高压直流供电体系创新以及BBU超级电容的能效优化方案也是不可忽视的技术进步点。\n\n## 四、产业链协同与价值重构\n\n台积电在N4P/N3P工艺上的产能协同对于整个产业链至关重要。HBM供应链格局正在经历深刻变化，SK海力士与美光之间的竞争态势愈发明显。ODM厂商如纬创/富士康面临着技术升级的巨大压力，而散热与连接器厂商如台达/AVC则迎来了前所未有的发展机遇[^52]。\n\n![pic_title](1_2)  \nHBM内存年度出货量呈现出逐年递增的趋势，预计到2026年将达到720万片[^39][^52][^10]。这一趋势表明市场对高性能内存的需求持续扩大，同时也预示着相关产业链公司将从中受益。\n\n## 五、新兴应用场景的生态布局\n\n人形机器人基础模型的开发进展为人形机器人的广泛应用奠定了坚实基础。自动驾驶Thor平台的技术突破不仅提升了汽车的安全性和智能化水平，还推动了整个交通行业的变革。Omniverse数字孪生在工业领域的深入应用，则展示了虚拟现实技术如何助力实体制造业实现转型升级。AI药物研发Clara平台的升级进一步加速了生命科学领域的发展步伐[^43]。\n\n## 六、未来技术路线与行业挑战\n\nRubin Ultra架构的4芯片集成方案预示着下一代GPU架构将更加复杂且强大。然而，量子-经典混合计算仍面临诸多技术瓶颈，需要克服诸如量子比特噪声控制等问题。数据中心功率密度突破MW级的挑战也不容小觑，地缘政治因素同样可能对技术迭代产生影响。面对这些挑战，英伟达正积极寻求解决方案，确保在未来继续保持领先地位[^29]。",
+                    "others": {},
+                    "createTime": "2025-03-21 16:34:55",
+                    "answers": null
+                },
+                {
+                    "id": 16115,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "assistant",
+                    "contentType": "workflow",
+                    "content": "[\"思考搜索条件...\", \"生成搜索条件\", \"思考与优化搜索条件...\", \"完成搜索条件优化\", \"思考研究框架...\", \"框架思考完成\", \"开始阅读相关网页\", \"阅读完成82篇\", \"资料筛选...\", \"筛选52篇相关参考资料\", \"撰写报告中...\", \"报告生成完成\"]",
+                    "others": [
+                        {},
+                        {
+                            "keywords": [
+                                "2025 NVIDIA GTC大会核心发布内容总结：Blackwell架构进展、生成式AI芯片性能提升、机器人技术突破及未来三年战略规划",
+                                "对比分析2025年3月NVIDIA GTC大会与2024年大会的技术差异：数据中心GPU能效提升、Omniverse平台新功能、自动驾驶芯片迭代方向及AI算力市场预测",
+                                "2025 NVIDIA GTC大会对AI产业链影响：H200/H300芯片供应链变化、CUDA 12生态应用案例、全球AI算力需求增长模型及合作伙伴关系更新"
+                            ]
+                        },
+                        {
+                            "keywords": [
+                                "对2025 英伟达（NVIDIA) GTC 大会进行详细分析总结，包括但不限于最新产品、技术突破、增长空间、未来展望等\n",
+                                "2025 NVIDIA GTC大会核心发布内容总结：Blackwell架构进展、生成式AI芯片性能提升、机器人技术突破及未来三年战略规划",
+                                "对比分析2025年3月NVIDIA GTC大会与2024年大会的技术差异：数据中心GPU能效提升、Omniverse平台新功能、自动驾驶芯片迭代方向及AI算力市场预测",
+                                "2025 NVIDIA GTC大会对AI产业链影响：H200/H300芯片供应链变化、CUDA 12生态应用案例、全球AI算力需求增长模型及合作伙伴关系更新"
+                            ]
+                        },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {
+                            "web_infos": [
+                                {
+                                    "url": "https://www.wind.com.cn/portal/en/3C/index.html",
+                                    "title": "Wind",
+                                    "push_time": 1742356800000
+                                },
+                                {
+                                    "url": "https://finance.sina.cn/2025-03-17/detail-inepxuqk0637937.d.html",
+                                    "title": "英伟达GTC 2025重磅来袭！关注这几大看点",
+                                    "push_time": 1742188860000
+                                },
+                                {
+                                    "url": "https://www.nvidia.com/gtc/",
+                                    "title": "Experience the GTC AI Conference March 17–21 in San Jose, CA",
+                                    "push_time": 1741708800000
+                                },
+                                {
+                                    "url": "https://www.techradar.com/pro/news",
+                                    "title": "Explore Pro",
+                                    "push_time": 1736697600000
+                                },
+                                {
+                                    "url": "http://tech.venturecapital.alltop.com/",
+                                    "title": "alltop",
+                                    "push_time": 1741841741000
+                                },
+                                {
+                                    "url": "http://sg.nvidia.com/",
+                                    "title": "nvidia",
+                                    "push_time": 1740672000000
+                                },
+                                {
+                                    "url": "https://developer.nvidia.com/",
+                                    "title": "nvidia",
+                                    "push_time": 1735660800000
+                                },
+                                {
+                                    "url": "https://www.nvidia.cn/gtc-global/?nvid=nv-int-bnr-723646",
+                                    "title": "首屈一指的 AI 盛会|NVIDIA GTC 2025",
+                                    "push_time": 1741017600000
+                                },
+                                {
+                                    "url": "https://m.tmtpost.com/7472998.html",
+                                    "title": "全年营收暴增114%，但股价不涨反跌，市场不相信黄仁勋还能造“英伟达泡沫”｜钛媒体AGI",
+                                    "push_time": 1740615600000
+                                },
+                                {
+                                    "url": "https://mparticle.uc.cn/article_org.html?uc_param_str=frdnsnpfvecpntnwprdssskt#!wm_cid=675912974143067136!!wm_id=90aae83ad26d4834b55a57238f01d455",
+                                    "title": "英伟达GTC: Blackwell Ultra和Rubin今明年出货",
+                                    "push_time": 1742341978000
+                                }
+                            ]
+                        },
+                        {},
+                        {
+                            "web_infos": [
+                                {
+                                    "url": "https://www.wind.com.cn/portal/en/3C/index.html",
+                                    "title": "Wind",
+                                    "push_time": 1742356800000
+                                },
+                                {
+                                    "url": "https://finance.sina.cn/2025-03-17/detail-inepxuqk0637937.d.html",
+                                    "title": "英伟达GTC 2025重磅来袭！关注这几大看点",
+                                    "push_time": 1742188860000
+                                },
+                                {
+                                    "url": "https://www.nvidia.com/gtc/",
+                                    "title": "Experience the GTC AI Conference March 17–21 in San Jose, CA",
+                                    "push_time": 1741708800000
+                                },
+                                {
+                                    "url": "https://www.techradar.com/pro/news",
+                                    "title": "Explore Pro",
+                                    "push_time": 1736697600000
+                                },
+                                {
+                                    "url": "http://tech.venturecapital.alltop.com/",
+                                    "title": "alltop",
+                                    "push_time": 1741841741000
+                                },
+                                {
+                                    "url": "http://sg.nvidia.com/",
+                                    "title": "nvidia",
+                                    "push_time": 1740672000000
+                                },
+                                {
+                                    "url": "https://developer.nvidia.com/",
+                                    "title": "nvidia",
+                                    "push_time": 1735660800000
+                                },
+                                {
+                                    "url": "https://www.nvidia.cn/gtc-global/?nvid=nv-int-bnr-723646",
+                                    "title": "首屈一指的 AI 盛会|NVIDIA GTC 2025",
+                                    "push_time": 1741017600000
+                                },
+                                {
+                                    "url": "https://m.tmtpost.com/7472998.html",
+                                    "title": "全年营收暴增114%，但股价不涨反跌，市场不相信黄仁勋还能造“英伟达泡沫”｜钛媒体AGI",
+                                    "push_time": 1740615600000
+                                },
+                                {
+                                    "url": "https://mparticle.uc.cn/article_org.html?uc_param_str=frdnsnpfvecpntnwprdssskt#!wm_cid=675912974143067136!!wm_id=90aae83ad26d4834b55a57238f01d455",
+                                    "title": "英伟达GTC: Blackwell Ultra和Rubin今明年出货",
+                                    "push_time": 1742341978000
+                                }
+                            ]
+                        },
+                        {},
+                        {}
+                    ],
+                    "createTime": "2025-03-21 16:34:55",
+                    "answers": null
+                },
+                {
+                    "id": 16116,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "assistant",
+                    "contentType": "link",
+                    "content": "[{\"url\": \"https://www.wind.com.cn/portal/en/3C/index.html\", \"title\": \"Wind\", \"id\": 1, \"push_time\": 1742356800000}, {\"url\": \"https://m.tmtpost.com/7472998.html\", \"title\": \"全年营收暴增114%，但股价不涨反跌，市场不相信黄仁勋还能造“英伟达泡沫”｜钛媒体AGI\", \"id\": 2, \"push_time\": 1740615600000}, {\"url\": \"https://m.163.com/dy/article/JR6DRACG05119734.html\", \"title\": \"英伟达首个量子日：黄仁勋改口“认错”，将成立加速量子研究中心\", \"id\": 3, \"push_time\": 1742542019000}, {\"url\": \"https://m.sohu.com/a/841374465_121798711/?pvid=000115_3w_a\", \"title\": \"英伟达Blackwell Ultra显卡亮相：性能全面升级，功耗突破1400W\", \"id\": 4, \"push_time\": 1735036200000}, {\"url\": \"https://m.sohu.com/a/870760721_122001006/?pvid=000115_3w_a\", \"title\": \"英伟达下一代AI芯片Vera Rubin：致敬暗物质发现者，引领AI算力革命\", \"id\": 5, \"push_time\": 1741911180000}, {\"url\": \"https://baijiahao.baidu.com/s?id=1800396379115640512\", \"title\": \"Nvidia DGX-H100：深度分析\", \"id\": 6, \"push_time\": 1716991740000}, {\"url\": \"https://xueqiu.com/2715675448/293973359\", \"title\": \"共封装光学（CPO），谁是盈利最强企业？\", \"id\": 7, \"push_time\": 1718532840000}, {\"url\": \"https://culture.ifeng.com/c/8f5mGJ1GH38\", \"title\": \"可用于冷却英伟达GB200 NVL72，Nidec向超微交付全球首款4U 250kw CDU\", \"id\": 8, \"push_time\": 1733469172000}, {\"url\": \"https://xueqiu.com/5931884935/327414541\", \"title\": \"3月18日\", \"id\": 9, \"push_time\": 1741945800000}, {\"url\": \"https://m.elecfans.com/article/2834472.html\", \"title\": \"SK海力士HBM4E存储器提前一年量产\", \"id\": 10, \"push_time\": 1715743920000}, {\"url\": \"https://m.elecfans.com/article/6451082.html\", \"title\": \"NVIDIA Isaac GR00T与Apple Vision Pro携手探索人形机器人训练新途径\", \"id\": 11, \"push_time\": 1739116800000}, {\"url\": \"https://m.163.com/dy/article/JLKBIP670527EIDC.html\", \"title\": \"英伟达公布Thor芯片新进展，两颗芯片最高算力超2000TOPS，目标360亿元汽车市场\", \"id\": 12, \"push_time\": 1736566800000}, {\"url\": \"https://blogs.nvidia.cn/blog/hyundai-motor-group-ces/\", \"title\": \"现代汽车集团采用 NVIDIA AI 和 Omniverse 技术打造下一代移动出行方式\", \"id\": 13, \"push_time\": 1736697600000}, {\"url\": \"https://m.sohu.com/a/833404548_104421\", \"title\": \"英伟达或提前发布Rubin架构GPU：或通过加快架构迭代巩固市场主导地位\", \"id\": 14, \"push_time\": 1733366520000}, {\"url\": \"https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20210985?viewType=HTML\", \"title\": \"Hybrid quantum-classical algorithms: Foundation, design and applications\", \"id\": 15, \"push_time\": 1636041600000}, {\"url\": \"https://baike.baidu.com/item/NVIDIA%20Hopper%20%E6%9E%B6%E6%9E%84/60997587\", \"title\": \"NVIDIA Hopper 架构\", \"id\": 16, \"push_time\": 1685444354000}, {\"url\": \"https://finance.sina.cn/2025-03-17/detail-inepxuqk0637937.d.html\", \"title\": \"英伟达GTC 2025重磅来袭！关注这几大看点\", \"id\": 17, \"push_time\": 1742188860000}, {\"url\": \"https://mparticle.uc.cn/article_org.html?uc_param_str=frdnsnpfvecpntnwprdssskt#!wm_cid=675912974143067136!!wm_id=90aae83ad26d4834b55a57238f01d455\", \"title\": \"英伟达GTC: Blackwell Ultra和Rubin今明年出货\", \"id\": 18, \"push_time\": 1742341978000}, {\"url\": \"https://www.laohu8.com/news/1199399840\", \"title\": \"异动解读 | Nvidia CEO疑虑量子计算发展前景，Quantum Computing Inc盘后大跌10.46%\", \"id\": 19, \"push_time\": 1736290020000}, {\"url\": \"https://post.m.smzdm.com/p/a0zr6rr9/\", \"title\": \"DLSS 4画质帧率我全要 七彩虹GeForce RTX 5080 Ultra W OC首发\", \"id\": 20, \"push_time\": 1738318433000}, {\"url\": \"https://m.sohu.com/a/870766444_122001006/?pvid=000115_3w_a\", \"title\": \"英伟达下一代AI芯片命名Rubin，致敬暗物质先驱Vera Rubin\", \"id\": 21, \"push_time\": 1741912440000}, {\"url\": \"https://baijiahao.baidu.com/s?id=1802827840360814902\", \"title\": \"NVIDIA DGX H100人工智能基础设施\", \"id\": 22, \"push_time\": 1719310560000}, {\"url\": \"https://finance.sina.cn/2025-01-14/detail-ineexccz1259267.d.html\", \"title\": \"三大芯片巨头，抢进CPO\", \"id\": 23, \"push_time\": 1736817660000}, {\"url\": \"https://www.autohome.com.cn/ask/3144530.html\", \"title\": \"72v配400w电机安全吗\", \"id\": 24, \"push_time\": 1741881600000}, {\"url\": \"https://wap.xcar.com.cn/bbs/viewthread.php?tid=99702254\", \"title\": \"SK Hynix与台积电合作开发HBM4，2026年量产\", \"id\": 25, \"push_time\": 1713765341000}, {\"url\": \"https://info.nvidia.com/219273-reg.html\", \"title\": \"人工智能\", \"id\": 26, \"push_time\": 1741276800000}, {\"url\": \"https://news.m.yiche.com/hao/wenzhang/89581739/\", \"title\": \"又只能靠华为？英伟达汽车芯片Thor直接上L5算力2000TOPS\", \"id\": 27, \"push_time\": 1710965460000}, {\"url\": \"https://blogs.nvidia.cn/blog/mercedes-benz-ev-nvidia-omniverse-generative-ai/?nv_excludes=85534,85612\", \"title\": \"梅赛德斯-奔驰使用 NVIDIA Omniverse、MB.OS 和生成式 AI 打造用于下一代平台的数字化生产系统\", \"id\": 28, \"push_time\": 1698854400000}, {\"url\": \"https://m.163.com/dy/article/JINVQI580511BLFD.html\", \"title\": \"NVIDIA下一代\\\"Rubin\\\"AI GPU开发进度比原计划提前6个月\", \"id\": 29, \"push_time\": 1733467500000}, {\"url\": \"https://m.blog.csdn.net/qq_42568323/article/details/145067017\", \"title\": \"新模型设计：Hybrid Quantum-Classical Neural Network (HQCNN) for Image Classification\", \"id\": 30, \"push_time\": 1736438400000}, {\"url\": \"https://www.ithome.com/0/695/910.htm\", \"title\": \"英伟达确认将于 2024 年推出“Hopper-Next”GPU，带来巨大性能飞越\", \"id\": 31, \"push_time\": 1685334448000}, {\"url\": \"https://www.nvidia.com/gtc/\", \"title\": \"Experience the GTC AI Conference March 17–21 in San Jose, CA\", \"id\": 32, \"push_time\": 1741708800000}, {\"url\": \"https://m.jrj.com.cn/madapter/24h/2024/06/02235940863827.shtml\", \"title\": \"黄仁勋：英伟达Blackwell芯片现已开始投产\", \"id\": 33, \"push_time\": 1717343991000}, {\"url\": \"https://m.thepaper.cn/newsDetail_forward_29882190\", \"title\": \"量子计算真正实用还要等20年？黄仁勋一句话致概念股暴跌，有公司CEO反驳\", \"id\": 34, \"push_time\": 1736403480000}, {\"url\": \"https://m.sohu.com/a/841374555_121798711\", \"title\": \"英伟达Blackwell Ultra显卡发布在即：性能突破及功耗挑战\", \"id\": 35, \"push_time\": 1735036200000}, {\"url\": \"http://m.itbear.com.cn/html/2025-03/750052.html\", \"title\": \"英伟达新AI芯片“Rubin”命名，致敬暗物质先驱薇拉・鲁宾！\", \"id\": 36, \"push_time\": 1741910624000}, {\"url\": \"https://www.icsmart.cn/tag/nvidia-dgx-h100/\", \"title\": \"NVIDIA DGX H100\", \"id\": 37, \"push_time\": 1647964800000}, {\"url\": \"https://m.elecfans.com/article/2080550.html\", \"title\": \"光进入芯片，能为高性能计算带来什么？\", \"id\": 38, \"push_time\": 1683876300000}, {\"url\": \"https://www.sensorexpert.com.cn/article/371388.html\", \"title\": \"SK海力士宣布最早2026年推出HBM4E内存\", \"id\": 39, \"push_time\": 1715616000000}, {\"url\": \"https://www.cnblogs.com/devilmaycry812839668/p/18172722\", \"title\": \"NVIDIA的人形机器人的基础模型Project GR00T已在实体机器人上进行展示\", \"id\": 40, \"push_time\": 1714829040000}, {\"url\": \"https://baijiahao.baidu.com/s?id=1820669995804691119\", \"title\": \"英伟达，又崩了！为何“高点魔咒”一再上演？\", \"id\": 41, \"push_time\": 1736326200000}, {\"url\": \"https://blogs.nvidia.cn/?p=88245\", \"title\": \"印度制造商使用 NVIDIA AI 和 Omniverse 创建工厂数字孪生\", \"id\": 42, \"push_time\": 1730217600000}, {\"url\": \"https://mparticle.uc.cn/article_org.html?uc_param_str=frdnsnpfvecpntnwprdssskt#!wm_cid=675918460888296448!!wm_id=be5d4615193f4baa88756085e30589a3\", \"title\": \"一文速览黄仁勋重磅演讲! Blackwell Ultra、Rubin芯片亮相, 机器人Blue压轴登场\", \"id\": 43, \"push_time\": 1742342056000}, {\"url\": \"https://m.zhangqiaokeyan.com/patent-detail/06130501957223.html\", \"title\": \"HYBRID QUANTUM-CLASSICAL COMPUTER SYSTEM AND METHOD FOR PERFORMING FUNCTION INVERSION\", \"id\": 44, \"push_time\": 1718377740000}, {\"url\": \"https://zhidao.baidu.com/question/931054641218324819.html\", \"title\": \"揭秘Nvidia Hopper架构和H100 GPU\", \"id\": 45, \"push_time\": 1723407446000}, {\"url\": \"https://www.techradar.com/pro/news\", \"title\": \"Explore Pro\", \"id\": 46, \"push_time\": 1736697600000}, {\"url\": \"https://m.toutiao.com/article/7475907561703850531/\", \"title\": \"英伟达业绩会： DeepSeek点燃全球热情 2025将实现强劲增长\", \"id\": 47, \"push_time\": 1740620340000}, {\"url\": \"https://m.sohu.com/a/841353031_121924584/?pvid=000115_3w_a\", \"title\": \"英伟达Blackwell Ultra显卡发布，1400W高功耗引领性能革命\", \"id\": 48, \"push_time\": 1735015200000}, {\"url\": \"https://c.m.163.com/news/a/JQJKTHOV0511A6N9.html\", \"title\": \"英伟达官宣下一代AI芯片命名Rubin，致敬暗物质发现者薇拉・鲁宾\", \"id\": 49, \"push_time\": 1741911780000}, {\"url\": \"https://www.nvidia.cn/object/dgx-saturnv-request-a-call-for-dgx1-cn.html\", \"title\": \"NVIDIA DGX H100\", \"id\": 50, \"push_time\": 1666195200000}, {\"url\": \"https://www.ednchina.com/technews/12276.html?ivk_sa=1024320u\", \"title\": \"共封装光学CPO目前发展怎样？\", \"id\": 51, \"push_time\": 1631203200000}, {\"url\": \"https://m.elecfans.com/article/2828821.html\", \"title\": \"SK海力士HBM4E内存2025年下半年采用32Gb DRAM裸片量产\", \"id\": 52, \"push_time\": 1715669760000}]",
+                    "others": {},
+                    "createTime": "2025-03-21 16:34:55",
+                    "answers": null
+                },
+                {
+                    "id": 16117,
+                    "questionId": 16066,
+                    "sessionId": "e87bc03b180a4669a60b94d50908de5c",
+                    "roleType": "assistant",
+                    "contentType": "picture",
+                    "content": "[{\"id\": \"1_1\", \"url\": \"http://zeelin.oss-cn-hangzhou.aliyuncs.com/deepseek_research/docs/desearch_long_pic/ddf8780dc1b70d571ae5da8eb4dc47dc.png\"}, {\"id\": \"1_2\", \"url\": \"http://zeelin.oss-cn-hangzhou.aliyuncs.com/deepseek_research/docs/desearch_long_pic/b28b0cab618837fd92cea6cdea072351.png\"}, {\"id\": \"1_3\", \"url\": \"http://zeelin.oss-cn-hangzhou.aliyuncs.com/deepseek_research/docs/desearch_long_pic/8d2f51cccfafef5e98d04e83effc5a10.png\"}]",
+                    "others": {},
+                    "createTime": "2025-03-21 16:34:55",
+                    "answers": null
+                }
+            ]
+        }
+    ]
+}
